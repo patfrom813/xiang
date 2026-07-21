@@ -10,13 +10,15 @@ python -m pip install -r requirements.txt
 
 ## Run Checkpoint 1
 
-The command discovers every raw trial but decodes exactly two files: PedNYC1 Scenario 3 and the smallest other trial in PedNYC1/PedNYC2. Existing decoded outputs are protected unless `--overwrite` is explicit.
+The full decoder discovers all 374 raw trials, writes semicolon-delimited decoded files under `data/processed/decoded/<study>/`, and resumes only after validating existing outputs.
 
 ```powershell
-python run_pipeline.py --overwrite
+python run_checkpoint_01b.py --dry-run --workers 2
+python run_checkpoint_01b.py --limit 5 --resume --workers 2
+python run_checkpoint_01b.py --resume --workers 2
 ```
 
-Outputs are written beneath `outputs/checkpoints/`; decoded files use `data/processed/decoded/<study>/<source-derived-name>_decoded.csv`. Raw files are opened read-only and never modified.
+Manifests are written under `outputs/summary/`, and the full report is `outputs/checkpoints/checkpoint_01_full_decoding.md`. Decoded filenames retain scenario and session identity. Raw files are opened read-only and never modified.
 
 ## Test
 
