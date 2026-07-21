@@ -1,0 +1,6 @@
+paths:
+  decoded: data/processed/decoded
+  checkpoint_outputs: outputs/checkpoints
+decoder:
+  delimiter: ";"
+  sample_size: 20

@@ -1,0 +1,10 @@
+.python_packages/
+data/processed/
+outputs/trials/
+outputs/logs/
+outputs/conflict_zones/
+outputs/summary/*.csv
+outputs/summary/*.json
+__pycache__/
+.pytest_cache/
+*.pyc

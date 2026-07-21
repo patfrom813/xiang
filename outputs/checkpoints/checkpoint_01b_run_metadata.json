@@ -1,0 +1,15 @@
+{
+  "checkpoint": "01B",
+  "timestamp_utc": "2026-07-21T22:15:57.880524+00:00",
+  "command": "run_checkpoint_01b.py --resume --workers 1",
+  "authoritative_discovery_count": 336,
+  "selected_count": 336,
+  "manifest_rows": 336,
+  "resume": true,
+  "overwrite": false,
+  "workers": 1,
+  "interrupted": false,
+  "run_runtime_seconds": 119.25616250000894,
+  "python": "3.12.13 (main, Mar  3 2026, 15:01:35) [MSC v.1944 64 bit (AMD64)]",
+  "platform": "Windows-11-10.0.26200-SP0"
+}
