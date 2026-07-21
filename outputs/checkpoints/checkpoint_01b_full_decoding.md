@@ -88,3 +88,38 @@ These dimensions were not imposed on other files.
 - `outputs/checkpoints/checkpoint_01b_full_decoding.md`
 
 No raw CSV was modified, renamed, deleted, or overwritten.
+
+## Mandatory decoded-output location verification
+
+- Absolute directory: `C:\Users\patl5\OneDrive\Documents\BURE\xiang\data\processed\decoded`
+- Physical decoded CSVs present: **336**
+- Manifest-valid successful decoded CSVs: **335**
+- Manifest-valid outputs missing from the directory: **0**
+- Manifest-valid outputs outside the directory: **0**
+- Total physical directory size: **5,898,039,441 bytes (5.493 GiB)**
+
+The difference between 336 physical files and 335 valid successes is the invalid legacy output corresponding to the one failed PedNYC6 source reported above. It is not represented as a successful decode.
+
+Valid decoded CSV count per study:
+
+| Study | Count | Study | Count | Study | Count |
+|---|---:|---|---:|---|---:|
+| PedNYC1 | 12 | PedNYC2 | 12 | PedNYC3 | 12 |
+| PedNYC4 | 12 | PedNYC5 | 12 | PedNYC6 | 10 |
+| PedNYC7 | 15 | PedNYC8 | 12 | PedNYC9 | 12 |
+| PedNYC10 | 9 | PedNYC11 | 12 | PedNYC12 | 12 |
+| PedNYC13 | 12 | PedNYC15 | 7 | PedNYC16 | 14 |
+| PedNYC17 | 12 | PedNYC18 | 7 | PedNYC19 | 12 |
+| PedNYC20 | 9 | PedNYC21 | 8 | PedNYC22 | 12 |
+| PedNYC23 | 12 | PedNYC24 | 13 | PedNYC25 | 11 |
+| PedNYC26 | 12 | PedNYC27 | 3 | PedNYC28 | 12 |
+| PedNYC29 | 13 | PedNYC30 | 10 | PedNYC31 | 4 |
+| PedNYC32 | 10 |  |  |  |  |
+
+Five verified examples:
+
+1. `data/processed/decoded/PedNYC1/CSV_Scenario-Ped-101_Session-temp_2024-02-22-13-58-23_decoded.csv`
+2. `data/processed/decoded/PedNYC1/CSV_Scenario-Ped-102_Session-temp_2024-02-22-14-03-29_decoded.csv`
+3. `data/processed/decoded/PedNYC1/CSV_Scenario-Ped-103_Session-temp_2024-02-22-14-05-41_decoded.csv`
+4. `data/processed/decoded/PedNYC1/CSV_Scenario-Ped-104_Session-temp_2024-02-22-14-01-04_decoded.csv`
+5. `data/processed/decoded/PedNYC1/CSV_Scenario-Ped-105_Session-temp_2024-02-22-14-07-56_decoded.csv`

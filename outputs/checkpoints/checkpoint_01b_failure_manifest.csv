@@ -1,12 +1,1 @@
 source_file,output_file,study,scenario,session,status,error_type,error_message,traceback,runtime_seconds,completed_time_utc
-C:\Users\patl5\OneDrive\Documents\BURE\xiang\PedNYC6\csv\CSV_Scenario-Ped-15_Session-temp_2024-03-01-11-48-06.csv,C:\Users\patl5\OneDrive\Documents\BURE\xiang\data\processed\decoded\PedNYC6\CSV_Scenario-Ped-15_Session-temp_2024-03-01-11-48-06_decoded.csv,PedNYC6,15,temp_2024-03-01-11-48-06,failed,ValueError,row 4113 has 329 fields; expected 342,"Traceback (most recent call last):
-  File ""C:\Users\patl5\OneDrive\Documents\BURE\xiang\pedconflict\batch.py"", line 98, in run_batch
-    details = validate_pair(source, output)
-              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File ""C:\Users\patl5\OneDrive\Documents\BURE\xiang\pedconflict\batch.py"", line 48, in validate_pair
-    input_rows, input_columns = csv_dimensions(source)
-                                ^^^^^^^^^^^^^^^^^^^^^^
-  File ""C:\Users\patl5\OneDrive\Documents\BURE\xiang\pedconflict\batch.py"", line 40, in csv_dimensions
-    raise ValueError(f""row {row_number} has {len(row)} fields; expected {len(header)}"")
-ValueError: row 4113 has 329 fields; expected 342
-",0.1678677999880165,2026-07-21T22:15:45.032921+00:00
