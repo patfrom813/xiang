@@ -1,7 +1,6 @@
 from __future__ import annotations
 
 import argparse
-import html
 import json
 import re
 from pathlib import Path
@@ -18,16 +17,26 @@ def clean(value: object) -> str:
 def compare(prediction_path: Path, ground_truth_path: Path, output_dir: Path) -> dict:
     pred = pd.read_csv(prediction_path, dtype=str, keep_default_na=False)
     truth = pd.read_csv(ground_truth_path, dtype=str, keep_default_na=False)
+    pred.columns = [clean(column) for column in pred.columns]
     truth.columns = [clean(column) for column in truth.columns]
     rename = {column: clean(column) for column in truth.columns}
     truth = truth.rename(columns=rename)
     truth = truth[truth.StudyFolder.map(clean).str.match(r"^PedNYC\d+$")].copy()
     truth["StudyFolder"] = truth.StudyFolder.map(clean)
     truth["ScenarioName"] = truth.ScenarioName.map(clean).str.replace(r"^scenario", "", regex=True, case=False)
+    pred["StudyFolder"] = pred.StudyFolder.map(clean)
+    pred["ScenarioName"] = pred.ScenarioName.map(clean).str.replace(r"^scenario", "", regex=True, case=False)
+    for column in pred.columns:
+        pred[column] = pred[column].map(clean)
     for column in truth.columns:
         truth[column] = truth[column].map(clean)
     merged = pred.merge(truth, on=["StudyFolder", "ScenarioName"], how="outer",
                         suffixes=("_prediction", "_ground_truth"), indicator=True, validate="one_to_one")
+    # The review artifact follows the human ground-truth row scope exactly.
+    # Prediction-only trials remain in the independent prediction CSV but do
+    # not clutter the visual discrepancy review.
+    prediction_only_count = int((merged["_merge"] == "left_only").sum())
+    merged = merged[merged["_merge"] != "left_only"].reset_index(drop=True)
     comparison = merged[["StudyFolder", "ScenarioName", "_merge"]].copy()
     field_stats = []
     mismatch_any = pd.Series(False, index=merged.index)
@@ -50,29 +59,12 @@ def compare(prediction_path: Path, ground_truth_path: Path, output_dir: Path) ->
                       index=False, encoding="utf-8-sig")
     comparison[comparison.overall_result == "<<< DISCREPANCY >>>"].to_csv(
         output_dir / "xc_ped_four_fields_discrepancies_only.csv", index=False, encoding="utf-8-sig")
-    headers = "".join(f"<th>{html.escape(str(column))}</th>" for column in comparison.columns)
-    body = []
-    for row in comparison.itertuples(index=False, name=None):
-        cells = []
-        for value in row:
-            style = ' style="background:#ffb3b3;font-weight:bold"' if value == "<<< DISCREPANCY >>>" else ""
-            cells.append(f"<td{style}>{html.escape(str(value))}</td>")
-        body.append("<tr>" + "".join(cells) + "</tr>")
-    highlighted = (
-        "<!doctype html><meta charset='utf-8'><style>table{border-collapse:collapse}"
-        "th,td{border:1px solid #bbb;padding:4px;font:12px sans-serif}th{position:sticky;top:0;background:#eee}"
-        "</style><table><thead><tr>" + headers + "</tr></thead><tbody>" +
-        "".join(body) + "</tbody></table>"
-    )
-    (output_dir / "xc_ped_four_fields_highlighted.html").write_text(
-        highlighted, encoding="utf-8")
     pd.DataFrame(field_stats).to_csv(output_dir / "xc_ped_four_fields_summary.csv", index=False)
     summary = {"prediction_rows": len(pred), "ground_truth_rows": len(truth),
                "joined_rows": int((merged._merge == "both").sum()),
-               "prediction_only": int((merged._merge == "left_only").sum()),
+               "prediction_only_excluded_from_review": prediction_only_count,
                "ground_truth_only": int((merged._merge == "right_only").sum()),
                "joined_rows_with_discrepancy": int((mismatch_any & merged._merge.eq("both")).sum())}
-    (output_dir / "xc_ped_four_fields_summary.json").write_text(json.dumps(summary, indent=2), encoding="utf-8")
     return summary
 
 

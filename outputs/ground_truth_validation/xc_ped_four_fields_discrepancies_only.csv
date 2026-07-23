@@ -1,332 +1,169 @@
 ﻿StudyFolder,ScenarioName,_merge,overall_result,Did the driver signal_prediction,Did the driver signal_ground_truth,Did the driver signal — result,Who has the right of way?（Who reached the intersection first?）_prediction,Who has the right of way?（Who reached the intersection first?）_ground_truth,Who has the right of way?（Who reached the intersection first?） — result,Who went first？_prediction,Who went first？_ground_truth,Who went first？ — result,Did the pedestrian use hand gestures?_prediction,Did the pedestrian use hand gestures?_ground_truth,Did the pedestrian use hand gestures? — result
-PedNYC1,101,left_only,<<< DISCREPANCY >>>,Yes,,<<< DISCREPANCY >>>,Pedestrian,,<<< DISCREPANCY >>>,Pedestrian,,<<< DISCREPANCY >>>,Yes,,<<< DISCREPANCY >>>
-PedNYC1,102,left_only,<<< DISCREPANCY >>>,Yes,,<<< DISCREPANCY >>>,Pedestrian,,<<< DISCREPANCY >>>,Pedestrian,,<<< DISCREPANCY >>>,Yes,,<<< DISCREPANCY >>>
-PedNYC1,103,left_only,<<< DISCREPANCY >>>,Yes,,<<< DISCREPANCY >>>,Pedestrian,,<<< DISCREPANCY >>>,Pedestrian,,<<< DISCREPANCY >>>,Yes,,<<< DISCREPANCY >>>
-PedNYC1,104,left_only,<<< DISCREPANCY >>>,Yes,,<<< DISCREPANCY >>>,Pedestrian,,<<< DISCREPANCY >>>,Pedestrian,,<<< DISCREPANCY >>>,Yes,,<<< DISCREPANCY >>>
-PedNYC1,105,left_only,<<< DISCREPANCY >>>,Yes,,<<< DISCREPANCY >>>,Pedestrian,,<<< DISCREPANCY >>>,Both,,<<< DISCREPANCY >>>,Yes,,<<< DISCREPANCY >>>
-PedNYC1,106,left_only,<<< DISCREPANCY >>>,Yes,,<<< DISCREPANCY >>>,Pedestrian,,<<< DISCREPANCY >>>,Pedestrian,,<<< DISCREPANCY >>>,Yes,,<<< DISCREPANCY >>>
 PedNYC1,12,both,<<< DISCREPANCY >>>,Yes,Yes,MATCH,Neither,Both,<<< DISCREPANCY >>>,Neither,Driver,<<< DISCREPANCY >>>,Yes,No,<<< DISCREPANCY >>>
 PedNYC1,15,both,<<< DISCREPANCY >>>,Yes,Yes,MATCH,Pedestrian,Pedestrian,MATCH,Pedestrian,Pedestrian,MATCH,Yes,No,<<< DISCREPANCY >>>
 PedNYC1,16,both,<<< DISCREPANCY >>>,Yes,No,<<< DISCREPANCY >>>,Neither,Both,<<< DISCREPANCY >>>,Neither,Driver,<<< DISCREPANCY >>>,Yes,No,<<< DISCREPANCY >>>
 PedNYC1,21,both,<<< DISCREPANCY >>>,Yes,Yes,MATCH,Pedestrian,Pedestrian,MATCH,Pedestrian,Pedestrian,MATCH,Yes,No,<<< DISCREPANCY >>>
 PedNYC1,3,both,<<< DISCREPANCY >>>,Yes,Yes,MATCH,Pedestrian,Pedestrian,MATCH,Pedestrian,Pedestrian,MATCH,Yes,No,<<< DISCREPANCY >>>
 PedNYC1,7,both,<<< DISCREPANCY >>>,No,No,MATCH,Pedestrian,Pedestrian,MATCH,Pedestrian,Pedestrian,MATCH,Yes,No,<<< DISCREPANCY >>>
-PedNYC10,101,left_only,<<< DISCREPANCY >>>,Yes,,<<< DISCREPANCY >>>,Driver,,<<< DISCREPANCY >>>,Driver,,<<< DISCREPANCY >>>,Yes,,<<< DISCREPANCY >>>
-PedNYC10,102,left_only,<<< DISCREPANCY >>>,Yes,,<<< DISCREPANCY >>>,Pedestrian,,<<< DISCREPANCY >>>,Pedestrian,,<<< DISCREPANCY >>>,Yes,,<<< DISCREPANCY >>>
-PedNYC10,104,left_only,<<< DISCREPANCY >>>,Yes,,<<< DISCREPANCY >>>,Pedestrian,,<<< DISCREPANCY >>>,Both,,<<< DISCREPANCY >>>,Yes,,<<< DISCREPANCY >>>
-PedNYC10,105,left_only,<<< DISCREPANCY >>>,Yes,,<<< DISCREPANCY >>>,Pedestrian,,<<< DISCREPANCY >>>,Both,,<<< DISCREPANCY >>>,Yes,,<<< DISCREPANCY >>>
 PedNYC10,12,both,<<< DISCREPANCY >>>,Unknown,Yes,<<< DISCREPANCY >>>,Unknown,Both,<<< DISCREPANCY >>>,Unknown,Driver,<<< DISCREPANCY >>>,Unknown,No,<<< DISCREPANCY >>>
 PedNYC10,15,right_only,<<< DISCREPANCY >>>,,,<<< DISCREPANCY >>>,,,<<< DISCREPANCY >>>,,,<<< DISCREPANCY >>>,,,<<< DISCREPANCY >>>
 PedNYC10,16,both,<<< DISCREPANCY >>>,Yes,No,<<< DISCREPANCY >>>,Neither,Both,<<< DISCREPANCY >>>,Neither,Driver,<<< DISCREPANCY >>>,Yes,No,<<< DISCREPANCY >>>
 PedNYC10,21,both,<<< DISCREPANCY >>>,Unknown,Yes,<<< DISCREPANCY >>>,Unknown,Pedestrian,<<< DISCREPANCY >>>,Unknown,Pedestrian,<<< DISCREPANCY >>>,Unknown,No,<<< DISCREPANCY >>>
 PedNYC10,3,both,<<< DISCREPANCY >>>,Yes,Yes,MATCH,Pedestrian,Both,<<< DISCREPANCY >>>,Pedestrian,Pedestrian,MATCH,Yes,Yes,MATCH
 PedNYC10,7,both,<<< DISCREPANCY >>>,No,No,MATCH,Pedestrian,Pedestrian,MATCH,Pedestrian,Pedestrian,MATCH,Yes,No,<<< DISCREPANCY >>>
-PedNYC11,101,left_only,<<< DISCREPANCY >>>,Yes,,<<< DISCREPANCY >>>,Pedestrian,,<<< DISCREPANCY >>>,Pedestrian,,<<< DISCREPANCY >>>,Yes,,<<< DISCREPANCY >>>
-PedNYC11,102,left_only,<<< DISCREPANCY >>>,Yes,,<<< DISCREPANCY >>>,Pedestrian,,<<< DISCREPANCY >>>,Pedestrian,,<<< DISCREPANCY >>>,Yes,,<<< DISCREPANCY >>>
-PedNYC11,103,left_only,<<< DISCREPANCY >>>,Yes,,<<< DISCREPANCY >>>,Pedestrian,,<<< DISCREPANCY >>>,Pedestrian,,<<< DISCREPANCY >>>,Yes,,<<< DISCREPANCY >>>
-PedNYC11,104,left_only,<<< DISCREPANCY >>>,Yes,,<<< DISCREPANCY >>>,Pedestrian,,<<< DISCREPANCY >>>,Both,,<<< DISCREPANCY >>>,Yes,,<<< DISCREPANCY >>>
-PedNYC11,105,left_only,<<< DISCREPANCY >>>,Yes,,<<< DISCREPANCY >>>,Pedestrian,,<<< DISCREPANCY >>>,Both,,<<< DISCREPANCY >>>,Yes,,<<< DISCREPANCY >>>
-PedNYC11,106,left_only,<<< DISCREPANCY >>>,No,,<<< DISCREPANCY >>>,Driver,,<<< DISCREPANCY >>>,Driver,,<<< DISCREPANCY >>>,Yes,,<<< DISCREPANCY >>>
 PedNYC11,12,both,<<< DISCREPANCY >>>,Yes,Yes,MATCH,Neither,Both,<<< DISCREPANCY >>>,Neither,Driver,<<< DISCREPANCY >>>,Yes,No,<<< DISCREPANCY >>>
 PedNYC11,15,both,<<< DISCREPANCY >>>,Yes,Yes,MATCH,Pedestrian,Driver,<<< DISCREPANCY >>>,Pedestrian,Pedestrian,MATCH,Yes,Yes,MATCH
 PedNYC11,16,both,<<< DISCREPANCY >>>,Yes,No,<<< DISCREPANCY >>>,Neither,Both,<<< DISCREPANCY >>>,Neither,Driver,<<< DISCREPANCY >>>,Yes,No,<<< DISCREPANCY >>>
 PedNYC11,21,both,<<< DISCREPANCY >>>,Yes,Yes,MATCH,Pedestrian,Pedestrian,MATCH,Pedestrian,Pedestrian,MATCH,Yes,No,<<< DISCREPANCY >>>
 PedNYC11,3,both,<<< DISCREPANCY >>>,Yes,Yes,MATCH,Driver,Driver,MATCH,Driver,Driver,MATCH,Yes,No,<<< DISCREPANCY >>>
 PedNYC11,7,both,<<< DISCREPANCY >>>,No,No,MATCH,Driver,Both,<<< DISCREPANCY >>>,Driver,Driver,MATCH,Yes,Yes,MATCH
-PedNYC12,101,left_only,<<< DISCREPANCY >>>,Yes,,<<< DISCREPANCY >>>,Driver,,<<< DISCREPANCY >>>,Driver,,<<< DISCREPANCY >>>,Yes,,<<< DISCREPANCY >>>
-PedNYC12,102,left_only,<<< DISCREPANCY >>>,Yes,,<<< DISCREPANCY >>>,Driver,,<<< DISCREPANCY >>>,Driver,,<<< DISCREPANCY >>>,Yes,,<<< DISCREPANCY >>>
-PedNYC12,103,left_only,<<< DISCREPANCY >>>,Yes,,<<< DISCREPANCY >>>,Driver,,<<< DISCREPANCY >>>,Driver,,<<< DISCREPANCY >>>,Yes,,<<< DISCREPANCY >>>
-PedNYC12,104,left_only,<<< DISCREPANCY >>>,Yes,,<<< DISCREPANCY >>>,Pedestrian,,<<< DISCREPANCY >>>,Both,,<<< DISCREPANCY >>>,Yes,,<<< DISCREPANCY >>>
-PedNYC12,105,left_only,<<< DISCREPANCY >>>,Yes,,<<< DISCREPANCY >>>,Pedestrian,,<<< DISCREPANCY >>>,Both,,<<< DISCREPANCY >>>,Yes,,<<< DISCREPANCY >>>
-PedNYC12,106,left_only,<<< DISCREPANCY >>>,Yes,,<<< DISCREPANCY >>>,Pedestrian,,<<< DISCREPANCY >>>,Pedestrian,,<<< DISCREPANCY >>>,Yes,,<<< DISCREPANCY >>>
 PedNYC12,12,both,<<< DISCREPANCY >>>,Yes,Yes,MATCH,Neither,Both,<<< DISCREPANCY >>>,Neither,Driver,<<< DISCREPANCY >>>,Yes,No,<<< DISCREPANCY >>>
 PedNYC12,15,both,<<< DISCREPANCY >>>,Yes,Yes,MATCH,Driver,Driver,MATCH,Driver,Driver,MATCH,Yes,No,<<< DISCREPANCY >>>
 PedNYC12,16,both,<<< DISCREPANCY >>>,Yes,No,<<< DISCREPANCY >>>,Neither,Both,<<< DISCREPANCY >>>,Neither,Driver,<<< DISCREPANCY >>>,Yes,No,<<< DISCREPANCY >>>
 PedNYC12,3,both,<<< DISCREPANCY >>>,Yes,Yes,MATCH,Driver,Driver,MATCH,Driver,Driver,MATCH,Yes,No,<<< DISCREPANCY >>>
 PedNYC12,7,both,<<< DISCREPANCY >>>,No,No,MATCH,Driver,Both,<<< DISCREPANCY >>>,Driver,Driver,MATCH,Yes,No,<<< DISCREPANCY >>>
-PedNYC13,101,left_only,<<< DISCREPANCY >>>,Yes,,<<< DISCREPANCY >>>,Pedestrian,,<<< DISCREPANCY >>>,Pedestrian,,<<< DISCREPANCY >>>,Yes,,<<< DISCREPANCY >>>
-PedNYC13,102,left_only,<<< DISCREPANCY >>>,Yes,,<<< DISCREPANCY >>>,Driver,,<<< DISCREPANCY >>>,Driver,,<<< DISCREPANCY >>>,Yes,,<<< DISCREPANCY >>>
-PedNYC13,103,left_only,<<< DISCREPANCY >>>,Yes,,<<< DISCREPANCY >>>,Driver,,<<< DISCREPANCY >>>,Driver,,<<< DISCREPANCY >>>,Yes,,<<< DISCREPANCY >>>
-PedNYC13,104,left_only,<<< DISCREPANCY >>>,Yes,,<<< DISCREPANCY >>>,Pedestrian,,<<< DISCREPANCY >>>,Pedestrian,,<<< DISCREPANCY >>>,Yes,,<<< DISCREPANCY >>>
-PedNYC13,105,left_only,<<< DISCREPANCY >>>,Yes,,<<< DISCREPANCY >>>,Pedestrian,,<<< DISCREPANCY >>>,Pedestrian,,<<< DISCREPANCY >>>,Yes,,<<< DISCREPANCY >>>
-PedNYC13,106,left_only,<<< DISCREPANCY >>>,No,,<<< DISCREPANCY >>>,Pedestrian,,<<< DISCREPANCY >>>,Pedestrian,,<<< DISCREPANCY >>>,Yes,,<<< DISCREPANCY >>>
 PedNYC13,12,both,<<< DISCREPANCY >>>,Yes,Yes,MATCH,Neither,Both,<<< DISCREPANCY >>>,Neither,Driver,<<< DISCREPANCY >>>,Yes,No,<<< DISCREPANCY >>>
 PedNYC13,15,both,<<< DISCREPANCY >>>,Yes,No,<<< DISCREPANCY >>>,Unknown,Neither,<<< DISCREPANCY >>>,Unknown,Driver,<<< DISCREPANCY >>>,Yes,No,<<< DISCREPANCY >>>
 PedNYC13,16,both,<<< DISCREPANCY >>>,Yes,No,<<< DISCREPANCY >>>,Neither,Both,<<< DISCREPANCY >>>,Neither,Driver,<<< DISCREPANCY >>>,Yes,No,<<< DISCREPANCY >>>
 PedNYC13,21,both,<<< DISCREPANCY >>>,Yes,Yes,MATCH,Pedestrian,Pedestrian,MATCH,Pedestrian,Pedestrian,MATCH,Yes,No,<<< DISCREPANCY >>>
 PedNYC13,3,both,<<< DISCREPANCY >>>,Yes,Yes,MATCH,Pedestrian,Pedestrian,MATCH,Pedestrian,Pedestrian,MATCH,Yes,No,<<< DISCREPANCY >>>
 PedNYC13,7,both,<<< DISCREPANCY >>>,No,No,MATCH,Pedestrian,Pedestrian,MATCH,Pedestrian,Pedestrian,MATCH,Yes,No,<<< DISCREPANCY >>>
-PedNYC15,102,left_only,<<< DISCREPANCY >>>,Yes,,<<< DISCREPANCY >>>,Pedestrian,,<<< DISCREPANCY >>>,Pedestrian,,<<< DISCREPANCY >>>,Yes,,<<< DISCREPANCY >>>
-PedNYC15,103,left_only,<<< DISCREPANCY >>>,Yes,,<<< DISCREPANCY >>>,Pedestrian,,<<< DISCREPANCY >>>,Pedestrian,,<<< DISCREPANCY >>>,Yes,,<<< DISCREPANCY >>>
-PedNYC15,106,left_only,<<< DISCREPANCY >>>,Yes,,<<< DISCREPANCY >>>,Pedestrian,,<<< DISCREPANCY >>>,Pedestrian,,<<< DISCREPANCY >>>,Yes,,<<< DISCREPANCY >>>
 PedNYC15,12,both,<<< DISCREPANCY >>>,Yes,Yes,MATCH,Neither,Both,<<< DISCREPANCY >>>,Neither,Pedestrian,<<< DISCREPANCY >>>,Yes,Yes,MATCH
 PedNYC15,16,both,<<< DISCREPANCY >>>,Yes,No,<<< DISCREPANCY >>>,Neither,Both,<<< DISCREPANCY >>>,Neither,Driver,<<< DISCREPANCY >>>,Yes,Yes,MATCH
 PedNYC15,21,right_only,<<< DISCREPANCY >>>,,,<<< DISCREPANCY >>>,,,<<< DISCREPANCY >>>,,,<<< DISCREPANCY >>>,,,<<< DISCREPANCY >>>
 PedNYC15,3,both,<<< DISCREPANCY >>>,Yes,Yes,MATCH,Pedestrian,Driver,<<< DISCREPANCY >>>,Pedestrian,Pedestrian,MATCH,Yes,No,<<< DISCREPANCY >>>
 PedNYC15,7,right_only,<<< DISCREPANCY >>>,,,<<< DISCREPANCY >>>,,,<<< DISCREPANCY >>>,,,<<< DISCREPANCY >>>,,,<<< DISCREPANCY >>>
-PedNYC16,101,left_only,<<< DISCREPANCY >>>,Yes,,<<< DISCREPANCY >>>,Pedestrian,,<<< DISCREPANCY >>>,Pedestrian,,<<< DISCREPANCY >>>,Yes,,<<< DISCREPANCY >>>
-PedNYC16,102,left_only,<<< DISCREPANCY >>>,Yes,,<<< DISCREPANCY >>>,Pedestrian,,<<< DISCREPANCY >>>,Pedestrian,,<<< DISCREPANCY >>>,Yes,,<<< DISCREPANCY >>>
-PedNYC16,103,left_only,<<< DISCREPANCY >>>,Yes,,<<< DISCREPANCY >>>,Driver,,<<< DISCREPANCY >>>,Driver,,<<< DISCREPANCY >>>,No,,<<< DISCREPANCY >>>
-PedNYC16,104,left_only,<<< DISCREPANCY >>>,Yes,,<<< DISCREPANCY >>>,Pedestrian,,<<< DISCREPANCY >>>,Both,,<<< DISCREPANCY >>>,Yes,,<<< DISCREPANCY >>>
-PedNYC16,105,left_only,<<< DISCREPANCY >>>,Yes,,<<< DISCREPANCY >>>,Pedestrian,,<<< DISCREPANCY >>>,Both,,<<< DISCREPANCY >>>,Yes,,<<< DISCREPANCY >>>
-PedNYC16,106,left_only,<<< DISCREPANCY >>>,Yes,,<<< DISCREPANCY >>>,Pedestrian,,<<< DISCREPANCY >>>,Pedestrian,,<<< DISCREPANCY >>>,Yes,,<<< DISCREPANCY >>>
 PedNYC16,12,both,<<< DISCREPANCY >>>,Yes,Yes,MATCH,Neither,Both,<<< DISCREPANCY >>>,Neither,Driver,<<< DISCREPANCY >>>,Yes,No,<<< DISCREPANCY >>>
 PedNYC16,15,both,<<< DISCREPANCY >>>,Yes,Yes,MATCH,Unknown,Pedestrian,<<< DISCREPANCY >>>,Unknown,Pedestrian,<<< DISCREPANCY >>>,Yes,No,<<< DISCREPANCY >>>
 PedNYC16,16,both,<<< DISCREPANCY >>>,Yes,No,<<< DISCREPANCY >>>,Neither,Both,<<< DISCREPANCY >>>,Neither,Driver,<<< DISCREPANCY >>>,No,No,MATCH
 PedNYC16,3,both,<<< DISCREPANCY >>>,Yes,Yes,MATCH,Driver,Driver,MATCH,Driver,Driver,MATCH,Yes,No,<<< DISCREPANCY >>>
 PedNYC16,7,both,<<< DISCREPANCY >>>,Unknown,No,<<< DISCREPANCY >>>,Unknown,Pedestrian,<<< DISCREPANCY >>>,Unknown,Driver,<<< DISCREPANCY >>>,Unknown,No,<<< DISCREPANCY >>>
-PedNYC17,101,left_only,<<< DISCREPANCY >>>,No,,<<< DISCREPANCY >>>,Pedestrian,,<<< DISCREPANCY >>>,Pedestrian,,<<< DISCREPANCY >>>,Yes,,<<< DISCREPANCY >>>
-PedNYC17,102,left_only,<<< DISCREPANCY >>>,Yes,,<<< DISCREPANCY >>>,Pedestrian,,<<< DISCREPANCY >>>,Pedestrian,,<<< DISCREPANCY >>>,Yes,,<<< DISCREPANCY >>>
-PedNYC17,103,left_only,<<< DISCREPANCY >>>,Yes,,<<< DISCREPANCY >>>,Pedestrian,,<<< DISCREPANCY >>>,Pedestrian,,<<< DISCREPANCY >>>,Yes,,<<< DISCREPANCY >>>
-PedNYC17,104,left_only,<<< DISCREPANCY >>>,Yes,,<<< DISCREPANCY >>>,Pedestrian,,<<< DISCREPANCY >>>,Pedestrian,,<<< DISCREPANCY >>>,Yes,,<<< DISCREPANCY >>>
-PedNYC17,105,left_only,<<< DISCREPANCY >>>,Yes,,<<< DISCREPANCY >>>,Pedestrian,,<<< DISCREPANCY >>>,Both,,<<< DISCREPANCY >>>,Yes,,<<< DISCREPANCY >>>
-PedNYC17,106,left_only,<<< DISCREPANCY >>>,Yes,,<<< DISCREPANCY >>>,Pedestrian,,<<< DISCREPANCY >>>,Pedestrian,,<<< DISCREPANCY >>>,Yes,,<<< DISCREPANCY >>>
 PedNYC17,12,both,<<< DISCREPANCY >>>,Unknown,Yes,<<< DISCREPANCY >>>,Unknown,Both,<<< DISCREPANCY >>>,Unknown,Driver,<<< DISCREPANCY >>>,Unknown,No,<<< DISCREPANCY >>>
 PedNYC17,15,both,<<< DISCREPANCY >>>,Yes,Yes,MATCH,Pedestrian,Pedestrian,MATCH,Pedestrian,Pedestrian,MATCH,Yes,No,<<< DISCREPANCY >>>
 PedNYC17,16,both,<<< DISCREPANCY >>>,Yes,No,<<< DISCREPANCY >>>,Neither,Both,<<< DISCREPANCY >>>,Neither,Driver,<<< DISCREPANCY >>>,Yes,No,<<< DISCREPANCY >>>
 PedNYC17,21,both,<<< DISCREPANCY >>>,Yes,Yes,MATCH,Pedestrian,Pedestrian,MATCH,Pedestrian,Pedestrian,MATCH,Yes,No,<<< DISCREPANCY >>>
 PedNYC17,7,both,<<< DISCREPANCY >>>,No,No,MATCH,Pedestrian,Pedestrian,MATCH,Pedestrian,Pedestrian,MATCH,Yes,No,<<< DISCREPANCY >>>
-PedNYC18,101,left_only,<<< DISCREPANCY >>>,Yes,,<<< DISCREPANCY >>>,Pedestrian,,<<< DISCREPANCY >>>,Pedestrian,,<<< DISCREPANCY >>>,Yes,,<<< DISCREPANCY >>>
-PedNYC18,102,left_only,<<< DISCREPANCY >>>,Yes,,<<< DISCREPANCY >>>,Pedestrian,,<<< DISCREPANCY >>>,Pedestrian,,<<< DISCREPANCY >>>,Yes,,<<< DISCREPANCY >>>
-PedNYC18,103,left_only,<<< DISCREPANCY >>>,Yes,,<<< DISCREPANCY >>>,Pedestrian,,<<< DISCREPANCY >>>,Pedestrian,,<<< DISCREPANCY >>>,Yes,,<<< DISCREPANCY >>>
-PedNYC18,106,left_only,<<< DISCREPANCY >>>,Yes,,<<< DISCREPANCY >>>,Driver,,<<< DISCREPANCY >>>,Driver,,<<< DISCREPANCY >>>,Yes,,<<< DISCREPANCY >>>
 PedNYC18,12,both,<<< DISCREPANCY >>>,Yes,Yes,MATCH,Neither,Both,<<< DISCREPANCY >>>,Neither,Driver,<<< DISCREPANCY >>>,Yes,No,<<< DISCREPANCY >>>
 PedNYC18,15,right_only,<<< DISCREPANCY >>>,,,<<< DISCREPANCY >>>,,,<<< DISCREPANCY >>>,,,<<< DISCREPANCY >>>,,,<<< DISCREPANCY >>>
 PedNYC18,16,right_only,<<< DISCREPANCY >>>,,,<<< DISCREPANCY >>>,,Both,<<< DISCREPANCY >>>,,Driver,<<< DISCREPANCY >>>,,No,<<< DISCREPANCY >>>
 PedNYC18,21,both,<<< DISCREPANCY >>>,Yes,Yes,MATCH,Pedestrian,Pedestrian,MATCH,Pedestrian,Pedestrian,MATCH,Yes,No,<<< DISCREPANCY >>>
 PedNYC18,3,right_only,<<< DISCREPANCY >>>,,,<<< DISCREPANCY >>>,,,<<< DISCREPANCY >>>,,,<<< DISCREPANCY >>>,,,<<< DISCREPANCY >>>
 PedNYC18,7,both,<<< DISCREPANCY >>>,No,No,MATCH,Pedestrian,Pedestrian,MATCH,Pedestrian,Pedestrian,MATCH,Yes,No,<<< DISCREPANCY >>>
-PedNYC19,101,left_only,<<< DISCREPANCY >>>,Yes,,<<< DISCREPANCY >>>,Driver,,<<< DISCREPANCY >>>,Driver,,<<< DISCREPANCY >>>,Yes,,<<< DISCREPANCY >>>
-PedNYC19,102,left_only,<<< DISCREPANCY >>>,Yes,,<<< DISCREPANCY >>>,Pedestrian,,<<< DISCREPANCY >>>,Pedestrian,,<<< DISCREPANCY >>>,Yes,,<<< DISCREPANCY >>>
-PedNYC19,103,left_only,<<< DISCREPANCY >>>,Yes,,<<< DISCREPANCY >>>,Pedestrian,,<<< DISCREPANCY >>>,Pedestrian,,<<< DISCREPANCY >>>,Yes,,<<< DISCREPANCY >>>
-PedNYC19,104,left_only,<<< DISCREPANCY >>>,Yes,,<<< DISCREPANCY >>>,Pedestrian,,<<< DISCREPANCY >>>,Pedestrian,,<<< DISCREPANCY >>>,Yes,,<<< DISCREPANCY >>>
-PedNYC19,105,left_only,<<< DISCREPANCY >>>,Yes,,<<< DISCREPANCY >>>,Pedestrian,,<<< DISCREPANCY >>>,Both,,<<< DISCREPANCY >>>,Yes,,<<< DISCREPANCY >>>
-PedNYC19,106,left_only,<<< DISCREPANCY >>>,Yes,,<<< DISCREPANCY >>>,Pedestrian,,<<< DISCREPANCY >>>,Pedestrian,,<<< DISCREPANCY >>>,Yes,,<<< DISCREPANCY >>>
 PedNYC19,12,both,<<< DISCREPANCY >>>,Yes,Yes,MATCH,Neither,Both,<<< DISCREPANCY >>>,Neither,Driver,<<< DISCREPANCY >>>,Yes,No,<<< DISCREPANCY >>>
 PedNYC19,15,both,<<< DISCREPANCY >>>,Yes,No,<<< DISCREPANCY >>>,Unknown,Neither,<<< DISCREPANCY >>>,Unknown,Driver,<<< DISCREPANCY >>>,Yes,No,<<< DISCREPANCY >>>
 PedNYC19,16,both,<<< DISCREPANCY >>>,Yes,No,<<< DISCREPANCY >>>,Neither,Both,<<< DISCREPANCY >>>,Neither,Driver,<<< DISCREPANCY >>>,Yes,No,<<< DISCREPANCY >>>
 PedNYC19,21,both,<<< DISCREPANCY >>>,Yes,Yes,MATCH,Driver,Both,<<< DISCREPANCY >>>,Driver,Driver,MATCH,Yes,No,<<< DISCREPANCY >>>
 PedNYC19,3,both,<<< DISCREPANCY >>>,Yes,Yes,MATCH,Driver,Driver,MATCH,Driver,Driver,MATCH,Yes,No,<<< DISCREPANCY >>>
 PedNYC19,7,both,<<< DISCREPANCY >>>,No,No,MATCH,Driver,Driver,MATCH,Driver,Driver,MATCH,Yes,No,<<< DISCREPANCY >>>
-PedNYC2,101,left_only,<<< DISCREPANCY >>>,Yes,,<<< DISCREPANCY >>>,Pedestrian,,<<< DISCREPANCY >>>,Pedestrian,,<<< DISCREPANCY >>>,Yes,,<<< DISCREPANCY >>>
-PedNYC2,102,left_only,<<< DISCREPANCY >>>,Yes,,<<< DISCREPANCY >>>,Pedestrian,,<<< DISCREPANCY >>>,Pedestrian,,<<< DISCREPANCY >>>,Yes,,<<< DISCREPANCY >>>
-PedNYC2,103,left_only,<<< DISCREPANCY >>>,Yes,,<<< DISCREPANCY >>>,Pedestrian,,<<< DISCREPANCY >>>,Pedestrian,,<<< DISCREPANCY >>>,Yes,,<<< DISCREPANCY >>>
-PedNYC2,104,left_only,<<< DISCREPANCY >>>,Yes,,<<< DISCREPANCY >>>,Pedestrian,,<<< DISCREPANCY >>>,Pedestrian,,<<< DISCREPANCY >>>,Yes,,<<< DISCREPANCY >>>
-PedNYC2,105,left_only,<<< DISCREPANCY >>>,Yes,,<<< DISCREPANCY >>>,Pedestrian,,<<< DISCREPANCY >>>,Pedestrian,,<<< DISCREPANCY >>>,Yes,,<<< DISCREPANCY >>>
-PedNYC2,106,left_only,<<< DISCREPANCY >>>,No,,<<< DISCREPANCY >>>,Pedestrian,,<<< DISCREPANCY >>>,Pedestrian,,<<< DISCREPANCY >>>,Yes,,<<< DISCREPANCY >>>
 PedNYC2,12,both,<<< DISCREPANCY >>>,Yes,Yes,MATCH,Neither,Both,<<< DISCREPANCY >>>,Neither,Driver,<<< DISCREPANCY >>>,Yes,No,<<< DISCREPANCY >>>
 PedNYC2,15,both,<<< DISCREPANCY >>>,Yes,Yes,MATCH,Unknown,Both,<<< DISCREPANCY >>>,Unknown,Driver,<<< DISCREPANCY >>>,Yes,No,<<< DISCREPANCY >>>
 PedNYC2,16,both,<<< DISCREPANCY >>>,Yes,No,<<< DISCREPANCY >>>,Neither,Both,<<< DISCREPANCY >>>,Neither,Driver,<<< DISCREPANCY >>>,Yes,No,<<< DISCREPANCY >>>
 PedNYC2,21,both,<<< DISCREPANCY >>>,Yes,No,<<< DISCREPANCY >>>,Unknown,Neither,<<< DISCREPANCY >>>,Unknown,Pedestrian,<<< DISCREPANCY >>>,Yes,No,<<< DISCREPANCY >>>
 PedNYC2,3,both,<<< DISCREPANCY >>>,No,No,MATCH,Driver,Driver,MATCH,Driver,Driver,MATCH,Yes,No,<<< DISCREPANCY >>>
 PedNYC2,7,both,<<< DISCREPANCY >>>,No,No,MATCH,Pedestrian,Pedestrian,MATCH,Pedestrian,Pedestrian,MATCH,Yes,No,<<< DISCREPANCY >>>
-PedNYC20,102,left_only,<<< DISCREPANCY >>>,Yes,,<<< DISCREPANCY >>>,Driver,,<<< DISCREPANCY >>>,Driver,,<<< DISCREPANCY >>>,Yes,,<<< DISCREPANCY >>>
-PedNYC20,104,left_only,<<< DISCREPANCY >>>,Yes,,<<< DISCREPANCY >>>,Pedestrian,,<<< DISCREPANCY >>>,Both,,<<< DISCREPANCY >>>,Yes,,<<< DISCREPANCY >>>
-PedNYC20,105,left_only,<<< DISCREPANCY >>>,Yes,,<<< DISCREPANCY >>>,Pedestrian,,<<< DISCREPANCY >>>,Pedestrian,,<<< DISCREPANCY >>>,Yes,,<<< DISCREPANCY >>>
-PedNYC20,106,left_only,<<< DISCREPANCY >>>,Yes,,<<< DISCREPANCY >>>,Pedestrian,,<<< DISCREPANCY >>>,Pedestrian,,<<< DISCREPANCY >>>,Yes,,<<< DISCREPANCY >>>
 PedNYC20,12,both,<<< DISCREPANCY >>>,Yes,Yes,MATCH,Neither,Both,<<< DISCREPANCY >>>,Neither,Driver,<<< DISCREPANCY >>>,Yes,No,<<< DISCREPANCY >>>
 PedNYC20,15,both,<<< DISCREPANCY >>>,Yes,Yes,MATCH,Pedestrian,Pedestrian,MATCH,Pedestrian,Pedestrian,MATCH,Yes,No,<<< DISCREPANCY >>>
 PedNYC20,16,both,<<< DISCREPANCY >>>,Yes,No,<<< DISCREPANCY >>>,Neither,Both,<<< DISCREPANCY >>>,Neither,Driver,<<< DISCREPANCY >>>,Yes,No,<<< DISCREPANCY >>>
 PedNYC20,21,both,<<< DISCREPANCY >>>,Yes,Yes,MATCH,Unknown,Both,<<< DISCREPANCY >>>,Unknown,Driver,<<< DISCREPANCY >>>,Yes,Yes,MATCH
 PedNYC20,3,right_only,<<< DISCREPANCY >>>,,,<<< DISCREPANCY >>>,,,<<< DISCREPANCY >>>,,,<<< DISCREPANCY >>>,,,<<< DISCREPANCY >>>
 PedNYC20,7,right_only,<<< DISCREPANCY >>>,,No,<<< DISCREPANCY >>>,,,<<< DISCREPANCY >>>,,,<<< DISCREPANCY >>>,,,<<< DISCREPANCY >>>
-PedNYC21,102,left_only,<<< DISCREPANCY >>>,Yes,,<<< DISCREPANCY >>>,Driver,,<<< DISCREPANCY >>>,Driver,,<<< DISCREPANCY >>>,Yes,,<<< DISCREPANCY >>>
-PedNYC21,103,left_only,<<< DISCREPANCY >>>,Yes,,<<< DISCREPANCY >>>,Pedestrian,,<<< DISCREPANCY >>>,Pedestrian,,<<< DISCREPANCY >>>,Yes,,<<< DISCREPANCY >>>
-PedNYC21,104,left_only,<<< DISCREPANCY >>>,Yes,,<<< DISCREPANCY >>>,Pedestrian,,<<< DISCREPANCY >>>,Pedestrian,,<<< DISCREPANCY >>>,Yes,,<<< DISCREPANCY >>>
-PedNYC21,106,left_only,<<< DISCREPANCY >>>,No,,<<< DISCREPANCY >>>,Pedestrian,,<<< DISCREPANCY >>>,Pedestrian,,<<< DISCREPANCY >>>,Yes,,<<< DISCREPANCY >>>
 PedNYC21,12,both,<<< DISCREPANCY >>>,Yes,Yes,MATCH,Neither,Both,<<< DISCREPANCY >>>,Neither,Pedestrian,<<< DISCREPANCY >>>,Yes,No,<<< DISCREPANCY >>>
 PedNYC21,15,right_only,<<< DISCREPANCY >>>,,,<<< DISCREPANCY >>>,,,<<< DISCREPANCY >>>,,,<<< DISCREPANCY >>>,,,<<< DISCREPANCY >>>
 PedNYC21,16,right_only,<<< DISCREPANCY >>>,,,<<< DISCREPANCY >>>,,,<<< DISCREPANCY >>>,,,<<< DISCREPANCY >>>,,,<<< DISCREPANCY >>>
 PedNYC21,21,both,<<< DISCREPANCY >>>,Yes,Yes,MATCH,Pedestrian,Pedestrian,MATCH,Pedestrian,Pedestrian,MATCH,Yes,No,<<< DISCREPANCY >>>
 PedNYC21,3,both,<<< DISCREPANCY >>>,Yes,Yes,MATCH,Pedestrian,Pedestrian,MATCH,Pedestrian,Pedestrian,MATCH,Yes,No,<<< DISCREPANCY >>>
 PedNYC21,7,both,<<< DISCREPANCY >>>,No,No,MATCH,Pedestrian,Pedestrian,MATCH,Pedestrian,Pedestrian,MATCH,Yes,No,<<< DISCREPANCY >>>
-PedNYC22,101,left_only,<<< DISCREPANCY >>>,Yes,,<<< DISCREPANCY >>>,Pedestrian,,<<< DISCREPANCY >>>,Pedestrian,,<<< DISCREPANCY >>>,Yes,,<<< DISCREPANCY >>>
-PedNYC22,102,left_only,<<< DISCREPANCY >>>,Yes,,<<< DISCREPANCY >>>,Pedestrian,,<<< DISCREPANCY >>>,Pedestrian,,<<< DISCREPANCY >>>,No,,<<< DISCREPANCY >>>
-PedNYC22,103,left_only,<<< DISCREPANCY >>>,Yes,,<<< DISCREPANCY >>>,Pedestrian,,<<< DISCREPANCY >>>,Pedestrian,,<<< DISCREPANCY >>>,Yes,,<<< DISCREPANCY >>>
-PedNYC22,104,left_only,<<< DISCREPANCY >>>,Yes,,<<< DISCREPANCY >>>,Pedestrian,,<<< DISCREPANCY >>>,Pedestrian,,<<< DISCREPANCY >>>,Yes,,<<< DISCREPANCY >>>
-PedNYC22,105,left_only,<<< DISCREPANCY >>>,Yes,,<<< DISCREPANCY >>>,Pedestrian,,<<< DISCREPANCY >>>,Both,,<<< DISCREPANCY >>>,Yes,,<<< DISCREPANCY >>>
-PedNYC22,106,left_only,<<< DISCREPANCY >>>,Yes,,<<< DISCREPANCY >>>,Pedestrian,,<<< DISCREPANCY >>>,Pedestrian,,<<< DISCREPANCY >>>,Yes,,<<< DISCREPANCY >>>
 PedNYC22,12,both,<<< DISCREPANCY >>>,Yes,Yes,MATCH,Neither,Both,<<< DISCREPANCY >>>,Neither,Driver,<<< DISCREPANCY >>>,Yes,No,<<< DISCREPANCY >>>
 PedNYC22,15,both,<<< DISCREPANCY >>>,Yes,No,<<< DISCREPANCY >>>,Unknown,Neither,<<< DISCREPANCY >>>,Unknown,Driver,<<< DISCREPANCY >>>,Yes,No,<<< DISCREPANCY >>>
 PedNYC22,16,both,<<< DISCREPANCY >>>,Yes,No,<<< DISCREPANCY >>>,Neither,Both,<<< DISCREPANCY >>>,Neither,Driver,<<< DISCREPANCY >>>,Yes,No,<<< DISCREPANCY >>>
 PedNYC22,21,both,<<< DISCREPANCY >>>,Yes,Yes,MATCH,Driver,Pedestrian,<<< DISCREPANCY >>>,Driver,Driver,MATCH,Yes,No,<<< DISCREPANCY >>>
-PedNYC23,101,left_only,<<< DISCREPANCY >>>,Yes,,<<< DISCREPANCY >>>,Pedestrian,,<<< DISCREPANCY >>>,Pedestrian,,<<< DISCREPANCY >>>,Yes,,<<< DISCREPANCY >>>
-PedNYC23,102,left_only,<<< DISCREPANCY >>>,Yes,,<<< DISCREPANCY >>>,Pedestrian,,<<< DISCREPANCY >>>,Pedestrian,,<<< DISCREPANCY >>>,Yes,,<<< DISCREPANCY >>>
-PedNYC23,103,left_only,<<< DISCREPANCY >>>,Yes,,<<< DISCREPANCY >>>,Pedestrian,,<<< DISCREPANCY >>>,Pedestrian,,<<< DISCREPANCY >>>,Yes,,<<< DISCREPANCY >>>
-PedNYC23,104,left_only,<<< DISCREPANCY >>>,Yes,,<<< DISCREPANCY >>>,Pedestrian,,<<< DISCREPANCY >>>,Both,,<<< DISCREPANCY >>>,Yes,,<<< DISCREPANCY >>>
-PedNYC23,105,left_only,<<< DISCREPANCY >>>,Unknown,,<<< DISCREPANCY >>>,Unknown,,<<< DISCREPANCY >>>,Unknown,,<<< DISCREPANCY >>>,Unknown,,<<< DISCREPANCY >>>
-PedNYC23,106,left_only,<<< DISCREPANCY >>>,Yes,,<<< DISCREPANCY >>>,Driver,,<<< DISCREPANCY >>>,Driver,,<<< DISCREPANCY >>>,Yes,,<<< DISCREPANCY >>>
 PedNYC23,12,both,<<< DISCREPANCY >>>,Yes,Yes,MATCH,Neither,Both,<<< DISCREPANCY >>>,Neither,Driver,<<< DISCREPANCY >>>,Yes,No,<<< DISCREPANCY >>>
 PedNYC23,15,both,<<< DISCREPANCY >>>,Yes,No,<<< DISCREPANCY >>>,Driver,Driver,MATCH,Driver,Driver,MATCH,Yes,No,<<< DISCREPANCY >>>
 PedNYC23,16,both,<<< DISCREPANCY >>>,Yes,No,<<< DISCREPANCY >>>,Neither,Both,<<< DISCREPANCY >>>,Neither,Driver,<<< DISCREPANCY >>>,Yes,No,<<< DISCREPANCY >>>
 PedNYC23,21,both,<<< DISCREPANCY >>>,Yes,Yes,MATCH,Pedestrian,Pedestrian,MATCH,Pedestrian,Pedestrian,MATCH,Yes,No,<<< DISCREPANCY >>>
 PedNYC23,3,both,<<< DISCREPANCY >>>,Yes,Yes,MATCH,Driver,Pedestrian,<<< DISCREPANCY >>>,Driver,Driver,MATCH,Yes,Yes,MATCH
-PedNYC24,101,left_only,<<< DISCREPANCY >>>,Yes,,<<< DISCREPANCY >>>,Driver,,<<< DISCREPANCY >>>,Driver,,<<< DISCREPANCY >>>,Yes,,<<< DISCREPANCY >>>
-PedNYC24,102,left_only,<<< DISCREPANCY >>>,Yes,,<<< DISCREPANCY >>>,Driver,,<<< DISCREPANCY >>>,Driver,,<<< DISCREPANCY >>>,Yes,,<<< DISCREPANCY >>>
-PedNYC24,103,left_only,<<< DISCREPANCY >>>,Yes,,<<< DISCREPANCY >>>,Driver,,<<< DISCREPANCY >>>,Driver,,<<< DISCREPANCY >>>,Yes,,<<< DISCREPANCY >>>
-PedNYC24,104,left_only,<<< DISCREPANCY >>>,Yes,,<<< DISCREPANCY >>>,Pedestrian,,<<< DISCREPANCY >>>,Pedestrian,,<<< DISCREPANCY >>>,Yes,,<<< DISCREPANCY >>>
-PedNYC24,105,left_only,<<< DISCREPANCY >>>,Yes,,<<< DISCREPANCY >>>,Pedestrian,,<<< DISCREPANCY >>>,Both,,<<< DISCREPANCY >>>,Yes,,<<< DISCREPANCY >>>
-PedNYC24,106,left_only,<<< DISCREPANCY >>>,Yes,,<<< DISCREPANCY >>>,Pedestrian,,<<< DISCREPANCY >>>,Pedestrian,,<<< DISCREPANCY >>>,Yes,,<<< DISCREPANCY >>>
 PedNYC24,12,both,<<< DISCREPANCY >>>,Yes,Yes,MATCH,Neither,Both,<<< DISCREPANCY >>>,Neither,Driver,<<< DISCREPANCY >>>,Yes,No,<<< DISCREPANCY >>>
 PedNYC24,15,both,<<< DISCREPANCY >>>,Yes,Yes,MATCH,Pedestrian,Pedestrian,MATCH,Pedestrian,Pedestrian,MATCH,Yes,No,<<< DISCREPANCY >>>
 PedNYC24,16,both,<<< DISCREPANCY >>>,Yes,No,<<< DISCREPANCY >>>,Neither,Both,<<< DISCREPANCY >>>,Neither,Driver,<<< DISCREPANCY >>>,Yes,No,<<< DISCREPANCY >>>
 PedNYC24,21,both,<<< DISCREPANCY >>>,Yes,Yes,MATCH,Driver,Both,<<< DISCREPANCY >>>,Driver,Driver,MATCH,Yes,Yes,MATCH
 PedNYC24,3,both,<<< DISCREPANCY >>>,Yes,Yes,MATCH,Pedestrian,Pedestrian,MATCH,Pedestrian,Pedestrian,MATCH,Yes,No,<<< DISCREPANCY >>>
 PedNYC24,7,both,<<< DISCREPANCY >>>,Unknown,No,<<< DISCREPANCY >>>,Unknown,Pedestrian,<<< DISCREPANCY >>>,Unknown,Pedestrian,<<< DISCREPANCY >>>,Unknown,No,<<< DISCREPANCY >>>
-PedNYC25,101,left_only,<<< DISCREPANCY >>>,Yes,,<<< DISCREPANCY >>>,Unknown,,<<< DISCREPANCY >>>,Unknown,,<<< DISCREPANCY >>>,Unknown,,<<< DISCREPANCY >>>
-PedNYC25,102,left_only,<<< DISCREPANCY >>>,Yes,,<<< DISCREPANCY >>>,Driver,,<<< DISCREPANCY >>>,Driver,,<<< DISCREPANCY >>>,Yes,,<<< DISCREPANCY >>>
-PedNYC25,103,left_only,<<< DISCREPANCY >>>,Yes,,<<< DISCREPANCY >>>,Driver,,<<< DISCREPANCY >>>,Driver,,<<< DISCREPANCY >>>,Yes,,<<< DISCREPANCY >>>
-PedNYC25,104,left_only,<<< DISCREPANCY >>>,Yes,,<<< DISCREPANCY >>>,Pedestrian,,<<< DISCREPANCY >>>,Pedestrian,,<<< DISCREPANCY >>>,Yes,,<<< DISCREPANCY >>>
-PedNYC25,105,left_only,<<< DISCREPANCY >>>,Yes,,<<< DISCREPANCY >>>,Pedestrian,,<<< DISCREPANCY >>>,Pedestrian,,<<< DISCREPANCY >>>,Yes,,<<< DISCREPANCY >>>
-PedNYC25,106,left_only,<<< DISCREPANCY >>>,No,,<<< DISCREPANCY >>>,Pedestrian,,<<< DISCREPANCY >>>,Pedestrian,,<<< DISCREPANCY >>>,Yes,,<<< DISCREPANCY >>>
 PedNYC25,12,right_only,<<< DISCREPANCY >>>,,,<<< DISCREPANCY >>>,,Both,<<< DISCREPANCY >>>,,,<<< DISCREPANCY >>>,,,<<< DISCREPANCY >>>
 PedNYC25,15,both,<<< DISCREPANCY >>>,Yes,Yes,MATCH,Pedestrian,Pedestrian,MATCH,Pedestrian,Pedestrian,MATCH,Yes,No,<<< DISCREPANCY >>>
 PedNYC25,16,both,<<< DISCREPANCY >>>,Yes,No,<<< DISCREPANCY >>>,Neither,Both,<<< DISCREPANCY >>>,Neither,Driver,<<< DISCREPANCY >>>,Yes,No,<<< DISCREPANCY >>>
 PedNYC25,21,both,<<< DISCREPANCY >>>,Yes,Yes,MATCH,Pedestrian,Pedestrian,MATCH,Pedestrian,Pedestrian,MATCH,Yes,No,<<< DISCREPANCY >>>
 PedNYC25,3,both,<<< DISCREPANCY >>>,Yes,Yes,MATCH,Pedestrian,Pedestrian,MATCH,Pedestrian,Pedestrian,MATCH,Yes,No,<<< DISCREPANCY >>>
 PedNYC25,7,both,<<< DISCREPANCY >>>,No,No,MATCH,Pedestrian,Pedestrian,MATCH,Pedestrian,Pedestrian,MATCH,Yes,No,<<< DISCREPANCY >>>
-PedNYC26,101,left_only,<<< DISCREPANCY >>>,Yes,,<<< DISCREPANCY >>>,Driver,,<<< DISCREPANCY >>>,Driver,,<<< DISCREPANCY >>>,Yes,,<<< DISCREPANCY >>>
-PedNYC26,102,left_only,<<< DISCREPANCY >>>,Yes,,<<< DISCREPANCY >>>,Pedestrian,,<<< DISCREPANCY >>>,Pedestrian,,<<< DISCREPANCY >>>,Yes,,<<< DISCREPANCY >>>
-PedNYC26,103,left_only,<<< DISCREPANCY >>>,Yes,,<<< DISCREPANCY >>>,Driver,,<<< DISCREPANCY >>>,Driver,,<<< DISCREPANCY >>>,Yes,,<<< DISCREPANCY >>>
-PedNYC26,104,left_only,<<< DISCREPANCY >>>,Yes,,<<< DISCREPANCY >>>,Pedestrian,,<<< DISCREPANCY >>>,Both,,<<< DISCREPANCY >>>,Yes,,<<< DISCREPANCY >>>
-PedNYC26,105,left_only,<<< DISCREPANCY >>>,Yes,,<<< DISCREPANCY >>>,Pedestrian,,<<< DISCREPANCY >>>,Both,,<<< DISCREPANCY >>>,Yes,,<<< DISCREPANCY >>>
-PedNYC26,106,left_only,<<< DISCREPANCY >>>,Yes,,<<< DISCREPANCY >>>,Pedestrian,,<<< DISCREPANCY >>>,Pedestrian,,<<< DISCREPANCY >>>,Yes,,<<< DISCREPANCY >>>
 PedNYC26,12,both,<<< DISCREPANCY >>>,Yes,Yes,MATCH,Neither,Both,<<< DISCREPANCY >>>,Neither,Driver,<<< DISCREPANCY >>>,Yes,No,<<< DISCREPANCY >>>
 PedNYC26,15,both,<<< DISCREPANCY >>>,Yes,Yes,MATCH,Pedestrian,Pedestrian,MATCH,Pedestrian,Pedestrian,MATCH,Yes,No,<<< DISCREPANCY >>>
 PedNYC26,16,both,<<< DISCREPANCY >>>,Yes,No,<<< DISCREPANCY >>>,Neither,Both,<<< DISCREPANCY >>>,Neither,Driver,<<< DISCREPANCY >>>,Yes,No,<<< DISCREPANCY >>>
 PedNYC26,21,both,<<< DISCREPANCY >>>,Yes,Yes,MATCH,Driver,Driver,MATCH,Driver,Driver,MATCH,Yes,No,<<< DISCREPANCY >>>
 PedNYC26,3,both,<<< DISCREPANCY >>>,No,No,MATCH,Driver,Driver,MATCH,Driver,Driver,MATCH,Yes,No,<<< DISCREPANCY >>>
-PedNYC27,104,left_only,<<< DISCREPANCY >>>,Yes,,<<< DISCREPANCY >>>,Pedestrian,,<<< DISCREPANCY >>>,Pedestrian,,<<< DISCREPANCY >>>,Yes,,<<< DISCREPANCY >>>
-PedNYC27,106,left_only,<<< DISCREPANCY >>>,Yes,,<<< DISCREPANCY >>>,Pedestrian,,<<< DISCREPANCY >>>,Pedestrian,,<<< DISCREPANCY >>>,Yes,,<<< DISCREPANCY >>>
 PedNYC27,12,right_only,<<< DISCREPANCY >>>,,,<<< DISCREPANCY >>>,,Both,<<< DISCREPANCY >>>,,,<<< DISCREPANCY >>>,,,<<< DISCREPANCY >>>
 PedNYC27,15,right_only,<<< DISCREPANCY >>>,,,<<< DISCREPANCY >>>,,,<<< DISCREPANCY >>>,,,<<< DISCREPANCY >>>,,,<<< DISCREPANCY >>>
 PedNYC27,16,right_only,<<< DISCREPANCY >>>,,,<<< DISCREPANCY >>>,,,<<< DISCREPANCY >>>,,,<<< DISCREPANCY >>>,,,<<< DISCREPANCY >>>
 PedNYC27,21,both,<<< DISCREPANCY >>>,Yes,Yes,MATCH,Pedestrian,Pedestrian,MATCH,Pedestrian,Pedestrian,MATCH,Yes,No,<<< DISCREPANCY >>>
 PedNYC27,3,right_only,<<< DISCREPANCY >>>,,,<<< DISCREPANCY >>>,,,<<< DISCREPANCY >>>,,,<<< DISCREPANCY >>>,,,<<< DISCREPANCY >>>
 PedNYC27,7,right_only,<<< DISCREPANCY >>>,,,<<< DISCREPANCY >>>,,,<<< DISCREPANCY >>>,,,<<< DISCREPANCY >>>,,,<<< DISCREPANCY >>>
-PedNYC28,101,left_only,<<< DISCREPANCY >>>,Yes,,<<< DISCREPANCY >>>,Pedestrian,,<<< DISCREPANCY >>>,Pedestrian,,<<< DISCREPANCY >>>,Yes,,<<< DISCREPANCY >>>
-PedNYC28,102,left_only,<<< DISCREPANCY >>>,Yes,,<<< DISCREPANCY >>>,Pedestrian,,<<< DISCREPANCY >>>,Pedestrian,,<<< DISCREPANCY >>>,Yes,,<<< DISCREPANCY >>>
-PedNYC28,103,left_only,<<< DISCREPANCY >>>,Unknown,,<<< DISCREPANCY >>>,Unknown,,<<< DISCREPANCY >>>,Unknown,,<<< DISCREPANCY >>>,Unknown,,<<< DISCREPANCY >>>
-PedNYC28,104,left_only,<<< DISCREPANCY >>>,Yes,,<<< DISCREPANCY >>>,Pedestrian,,<<< DISCREPANCY >>>,Both,,<<< DISCREPANCY >>>,Yes,,<<< DISCREPANCY >>>
-PedNYC28,105,left_only,<<< DISCREPANCY >>>,Yes,,<<< DISCREPANCY >>>,Pedestrian,,<<< DISCREPANCY >>>,Pedestrian,,<<< DISCREPANCY >>>,Yes,,<<< DISCREPANCY >>>
-PedNYC28,106,left_only,<<< DISCREPANCY >>>,Yes,,<<< DISCREPANCY >>>,Pedestrian,,<<< DISCREPANCY >>>,Pedestrian,,<<< DISCREPANCY >>>,Yes,,<<< DISCREPANCY >>>
 PedNYC28,12,both,<<< DISCREPANCY >>>,Yes,Yes,MATCH,Neither,Both,<<< DISCREPANCY >>>,Neither,Driver,<<< DISCREPANCY >>>,Yes,No,<<< DISCREPANCY >>>
 PedNYC28,15,both,<<< DISCREPANCY >>>,Yes,Yes,MATCH,Pedestrian,Pedestrian,MATCH,Pedestrian,Pedestrian,MATCH,Yes,No,<<< DISCREPANCY >>>
 PedNYC28,16,both,<<< DISCREPANCY >>>,Yes,No,<<< DISCREPANCY >>>,Neither,Both,<<< DISCREPANCY >>>,Neither,Pedestrian,<<< DISCREPANCY >>>,Yes,No,<<< DISCREPANCY >>>
 PedNYC28,3,both,<<< DISCREPANCY >>>,Yes,Yes,MATCH,Pedestrian,Both,<<< DISCREPANCY >>>,Pedestrian,Pedestrian,MATCH,Yes,Yes,MATCH
 PedNYC28,7,both,<<< DISCREPANCY >>>,No,No,MATCH,Pedestrian,Pedestrian,MATCH,Pedestrian,Pedestrian,MATCH,Yes,No,<<< DISCREPANCY >>>
-PedNYC29,101,left_only,<<< DISCREPANCY >>>,Yes,,<<< DISCREPANCY >>>,Pedestrian,,<<< DISCREPANCY >>>,Both,,<<< DISCREPANCY >>>,Yes,,<<< DISCREPANCY >>>
-PedNYC29,102,left_only,<<< DISCREPANCY >>>,Yes,,<<< DISCREPANCY >>>,Pedestrian,,<<< DISCREPANCY >>>,Both,,<<< DISCREPANCY >>>,Yes,,<<< DISCREPANCY >>>
-PedNYC29,103,left_only,<<< DISCREPANCY >>>,Yes,,<<< DISCREPANCY >>>,Pedestrian,,<<< DISCREPANCY >>>,Both,,<<< DISCREPANCY >>>,Yes,,<<< DISCREPANCY >>>
-PedNYC29,104,left_only,<<< DISCREPANCY >>>,Yes,,<<< DISCREPANCY >>>,Pedestrian,,<<< DISCREPANCY >>>,Pedestrian,,<<< DISCREPANCY >>>,Yes,,<<< DISCREPANCY >>>
-PedNYC29,105,left_only,<<< DISCREPANCY >>>,Yes,,<<< DISCREPANCY >>>,Pedestrian,,<<< DISCREPANCY >>>,Both,,<<< DISCREPANCY >>>,Yes,,<<< DISCREPANCY >>>
-PedNYC29,106,left_only,<<< DISCREPANCY >>>,Yes,,<<< DISCREPANCY >>>,Pedestrian,,<<< DISCREPANCY >>>,Both,,<<< DISCREPANCY >>>,Yes,,<<< DISCREPANCY >>>
 PedNYC29,12,both,<<< DISCREPANCY >>>,Yes,Yes,MATCH,Neither,Both,<<< DISCREPANCY >>>,Neither,Pedestrian,<<< DISCREPANCY >>>,Yes,Yes,MATCH
 PedNYC29,15,both,<<< DISCREPANCY >>>,Yes,No,<<< DISCREPANCY >>>,Pedestrian,Pedestrian,MATCH,Both,Pedestrian,<<< DISCREPANCY >>>,Yes,No,<<< DISCREPANCY >>>
 PedNYC29,16,both,<<< DISCREPANCY >>>,Yes,No,<<< DISCREPANCY >>>,Neither,Both,<<< DISCREPANCY >>>,Neither,Pedestrian,<<< DISCREPANCY >>>,Yes,No,<<< DISCREPANCY >>>
 PedNYC29,21,both,<<< DISCREPANCY >>>,Yes,Yes,MATCH,Pedestrian,Pedestrian,MATCH,Pedestrian,Pedestrian,MATCH,Yes,No,<<< DISCREPANCY >>>
 PedNYC29,7,both,<<< DISCREPANCY >>>,No,No,MATCH,Pedestrian,Pedestrian,MATCH,Pedestrian,Pedestrian,MATCH,Yes,No,<<< DISCREPANCY >>>
-PedNYC3,101,left_only,<<< DISCREPANCY >>>,Yes,,<<< DISCREPANCY >>>,Driver,,<<< DISCREPANCY >>>,Driver,,<<< DISCREPANCY >>>,Yes,,<<< DISCREPANCY >>>
-PedNYC3,102,left_only,<<< DISCREPANCY >>>,Yes,,<<< DISCREPANCY >>>,Pedestrian,,<<< DISCREPANCY >>>,Pedestrian,,<<< DISCREPANCY >>>,Yes,,<<< DISCREPANCY >>>
-PedNYC3,103,left_only,<<< DISCREPANCY >>>,Yes,,<<< DISCREPANCY >>>,Pedestrian,,<<< DISCREPANCY >>>,Pedestrian,,<<< DISCREPANCY >>>,Yes,,<<< DISCREPANCY >>>
-PedNYC3,104,left_only,<<< DISCREPANCY >>>,Yes,,<<< DISCREPANCY >>>,Pedestrian,,<<< DISCREPANCY >>>,Pedestrian,,<<< DISCREPANCY >>>,Yes,,<<< DISCREPANCY >>>
-PedNYC3,105,left_only,<<< DISCREPANCY >>>,Yes,,<<< DISCREPANCY >>>,Pedestrian,,<<< DISCREPANCY >>>,Both,,<<< DISCREPANCY >>>,Yes,,<<< DISCREPANCY >>>
-PedNYC3,106,left_only,<<< DISCREPANCY >>>,Yes,,<<< DISCREPANCY >>>,Pedestrian,,<<< DISCREPANCY >>>,Pedestrian,,<<< DISCREPANCY >>>,Yes,,<<< DISCREPANCY >>>
 PedNYC3,12,both,<<< DISCREPANCY >>>,Yes,Yes,MATCH,Neither,Both,<<< DISCREPANCY >>>,Neither,Driver,<<< DISCREPANCY >>>,Yes,No,<<< DISCREPANCY >>>
 PedNYC3,15,both,<<< DISCREPANCY >>>,Yes,Yes,MATCH,Driver,Pedestrian,<<< DISCREPANCY >>>,Driver,Driver,MATCH,Yes,No,<<< DISCREPANCY >>>
 PedNYC3,16,both,<<< DISCREPANCY >>>,Yes,No,<<< DISCREPANCY >>>,Neither,Both,<<< DISCREPANCY >>>,Neither,Driver,<<< DISCREPANCY >>>,Yes,No,<<< DISCREPANCY >>>
 PedNYC3,3,both,<<< DISCREPANCY >>>,Yes,Yes,MATCH,Driver,Both,<<< DISCREPANCY >>>,Driver,Driver,MATCH,Yes,Yes,MATCH
 PedNYC3,7,both,<<< DISCREPANCY >>>,No,No,MATCH,Driver,Pedestrian,<<< DISCREPANCY >>>,Driver,Driver,MATCH,Yes,No,<<< DISCREPANCY >>>
-PedNYC30,101,left_only,<<< DISCREPANCY >>>,Yes,,<<< DISCREPANCY >>>,Pedestrian,,<<< DISCREPANCY >>>,Pedestrian,,<<< DISCREPANCY >>>,Yes,,<<< DISCREPANCY >>>
-PedNYC30,102,left_only,<<< DISCREPANCY >>>,Yes,,<<< DISCREPANCY >>>,Pedestrian,,<<< DISCREPANCY >>>,Pedestrian,,<<< DISCREPANCY >>>,Yes,,<<< DISCREPANCY >>>
-PedNYC30,103,left_only,<<< DISCREPANCY >>>,Yes,,<<< DISCREPANCY >>>,Pedestrian,,<<< DISCREPANCY >>>,Pedestrian,,<<< DISCREPANCY >>>,Yes,,<<< DISCREPANCY >>>
-PedNYC30,105,left_only,<<< DISCREPANCY >>>,Yes,,<<< DISCREPANCY >>>,Pedestrian,,<<< DISCREPANCY >>>,Pedestrian,,<<< DISCREPANCY >>>,Yes,,<<< DISCREPANCY >>>
-PedNYC30,106,left_only,<<< DISCREPANCY >>>,Yes,,<<< DISCREPANCY >>>,Pedestrian,,<<< DISCREPANCY >>>,Pedestrian,,<<< DISCREPANCY >>>,Yes,,<<< DISCREPANCY >>>
 PedNYC30,12,both,<<< DISCREPANCY >>>,Yes,Yes,MATCH,Neither,Both,<<< DISCREPANCY >>>,Neither,Pedestrian,<<< DISCREPANCY >>>,Yes,No,<<< DISCREPANCY >>>
 PedNYC30,15,both,<<< DISCREPANCY >>>,Yes,Yes,MATCH,Pedestrian,Pedestrian,MATCH,Pedestrian,Pedestrian,MATCH,Yes,No,<<< DISCREPANCY >>>
 PedNYC30,16,both,<<< DISCREPANCY >>>,Yes,No,<<< DISCREPANCY >>>,Neither,Both,<<< DISCREPANCY >>>,Neither,Driver,<<< DISCREPANCY >>>,Yes,No,<<< DISCREPANCY >>>
 PedNYC30,3,both,<<< DISCREPANCY >>>,Yes,Yes,MATCH,Pedestrian,Pedestrian,MATCH,Pedestrian,Pedestrian,MATCH,Yes,No,<<< DISCREPANCY >>>
 PedNYC30,7,right_only,<<< DISCREPANCY >>>,,,<<< DISCREPANCY >>>,,,<<< DISCREPANCY >>>,,,<<< DISCREPANCY >>>,,,<<< DISCREPANCY >>>
-PedNYC31,101,left_only,<<< DISCREPANCY >>>,Yes,,<<< DISCREPANCY >>>,Pedestrian,,<<< DISCREPANCY >>>,Pedestrian,,<<< DISCREPANCY >>>,Yes,,<<< DISCREPANCY >>>
 PedNYC31,12,both,<<< DISCREPANCY >>>,Yes,Yes,MATCH,Neither,Both,<<< DISCREPANCY >>>,Neither,Pedestrian,<<< DISCREPANCY >>>,Yes,No,<<< DISCREPANCY >>>
 PedNYC31,15,both,<<< DISCREPANCY >>>,Yes,Yes,MATCH,Driver,Pedestrian,<<< DISCREPANCY >>>,Driver,Driver,MATCH,Yes,No,<<< DISCREPANCY >>>
 PedNYC31,16,right_only,<<< DISCREPANCY >>>,,,<<< DISCREPANCY >>>,,Both,<<< DISCREPANCY >>>,,,<<< DISCREPANCY >>>,,,<<< DISCREPANCY >>>
 PedNYC31,21,right_only,<<< DISCREPANCY >>>,,,<<< DISCREPANCY >>>,,,<<< DISCREPANCY >>>,,,<<< DISCREPANCY >>>,,,<<< DISCREPANCY >>>
 PedNYC31,3,both,<<< DISCREPANCY >>>,Yes,Yes,MATCH,Pedestrian,Pedestrian,MATCH,Pedestrian,Pedestrian,MATCH,Yes,No,<<< DISCREPANCY >>>
 PedNYC31,7,right_only,<<< DISCREPANCY >>>,,,<<< DISCREPANCY >>>,,,<<< DISCREPANCY >>>,,,<<< DISCREPANCY >>>,,,<<< DISCREPANCY >>>
-PedNYC32,101,left_only,<<< DISCREPANCY >>>,Unknown,,<<< DISCREPANCY >>>,Unknown,,<<< DISCREPANCY >>>,Unknown,,<<< DISCREPANCY >>>,Unknown,,<<< DISCREPANCY >>>
-PedNYC32,102,left_only,<<< DISCREPANCY >>>,No,,<<< DISCREPANCY >>>,Pedestrian,,<<< DISCREPANCY >>>,Pedestrian,,<<< DISCREPANCY >>>,Yes,,<<< DISCREPANCY >>>
-PedNYC32,103,left_only,<<< DISCREPANCY >>>,No,,<<< DISCREPANCY >>>,Pedestrian,,<<< DISCREPANCY >>>,Both,,<<< DISCREPANCY >>>,Yes,,<<< DISCREPANCY >>>
-PedNYC32,104,left_only,<<< DISCREPANCY >>>,No,,<<< DISCREPANCY >>>,Pedestrian,,<<< DISCREPANCY >>>,Pedestrian,,<<< DISCREPANCY >>>,Yes,,<<< DISCREPANCY >>>
-PedNYC32,106,left_only,<<< DISCREPANCY >>>,No,,<<< DISCREPANCY >>>,Pedestrian,,<<< DISCREPANCY >>>,Both,,<<< DISCREPANCY >>>,Yes,,<<< DISCREPANCY >>>
 PedNYC32,12,right_only,<<< DISCREPANCY >>>,,,<<< DISCREPANCY >>>,,Both,<<< DISCREPANCY >>>,,,<<< DISCREPANCY >>>,,,<<< DISCREPANCY >>>
 PedNYC32,15,both,<<< DISCREPANCY >>>,No,No,MATCH,Pedestrian,Pedestrian,MATCH,Pedestrian,Pedestrian,MATCH,Yes,No,<<< DISCREPANCY >>>
 PedNYC32,16,both,<<< DISCREPANCY >>>,No,No,MATCH,Neither,Both,<<< DISCREPANCY >>>,Neither,Driver,<<< DISCREPANCY >>>,Yes,No,<<< DISCREPANCY >>>
 PedNYC32,21,both,<<< DISCREPANCY >>>,No,No,MATCH,Unknown,Neither,<<< DISCREPANCY >>>,Unknown,Pedestrian,<<< DISCREPANCY >>>,Yes,No,<<< DISCREPANCY >>>
-PedNYC4,101,left_only,<<< DISCREPANCY >>>,No,,<<< DISCREPANCY >>>,Pedestrian,,<<< DISCREPANCY >>>,Pedestrian,,<<< DISCREPANCY >>>,Yes,,<<< DISCREPANCY >>>
-PedNYC4,102,left_only,<<< DISCREPANCY >>>,Yes,,<<< DISCREPANCY >>>,Pedestrian,,<<< DISCREPANCY >>>,Pedestrian,,<<< DISCREPANCY >>>,Yes,,<<< DISCREPANCY >>>
-PedNYC4,103,left_only,<<< DISCREPANCY >>>,No,,<<< DISCREPANCY >>>,Driver,,<<< DISCREPANCY >>>,Driver,,<<< DISCREPANCY >>>,Yes,,<<< DISCREPANCY >>>
-PedNYC4,104,left_only,<<< DISCREPANCY >>>,Yes,,<<< DISCREPANCY >>>,Pedestrian,,<<< DISCREPANCY >>>,Pedestrian,,<<< DISCREPANCY >>>,Yes,,<<< DISCREPANCY >>>
-PedNYC4,105,left_only,<<< DISCREPANCY >>>,Yes,,<<< DISCREPANCY >>>,Pedestrian,,<<< DISCREPANCY >>>,Pedestrian,,<<< DISCREPANCY >>>,Yes,,<<< DISCREPANCY >>>
-PedNYC4,106,left_only,<<< DISCREPANCY >>>,Yes,,<<< DISCREPANCY >>>,Pedestrian,,<<< DISCREPANCY >>>,Pedestrian,,<<< DISCREPANCY >>>,Yes,,<<< DISCREPANCY >>>
 PedNYC4,12,both,<<< DISCREPANCY >>>,Yes,Yes,MATCH,Neither,Both,<<< DISCREPANCY >>>,Neither,Driver,<<< DISCREPANCY >>>,Yes,No,<<< DISCREPANCY >>>
 PedNYC4,15,both,<<< DISCREPANCY >>>,Yes,Yes,MATCH,Driver,Pedestrian,<<< DISCREPANCY >>>,Driver,Driver,MATCH,Yes,Yes,MATCH
 PedNYC4,16,both,<<< DISCREPANCY >>>,Yes,No,<<< DISCREPANCY >>>,Neither,Both,<<< DISCREPANCY >>>,Neither,Driver,<<< DISCREPANCY >>>,Yes,No,<<< DISCREPANCY >>>
 PedNYC4,21,both,<<< DISCREPANCY >>>,Yes,Yes,MATCH,Pedestrian,Pedestrian,MATCH,Pedestrian,Pedestrian,MATCH,Yes,No,<<< DISCREPANCY >>>
 PedNYC4,3,both,<<< DISCREPANCY >>>,Yes,Yes,MATCH,Pedestrian,Pedestrian,MATCH,Pedestrian,Pedestrian,MATCH,Yes,No,<<< DISCREPANCY >>>
 PedNYC4,7,both,<<< DISCREPANCY >>>,No,No,MATCH,Driver,Driver,MATCH,Driver,Driver,MATCH,Yes,No,<<< DISCREPANCY >>>
-PedNYC5,101,left_only,<<< DISCREPANCY >>>,Yes,,<<< DISCREPANCY >>>,Pedestrian,,<<< DISCREPANCY >>>,Pedestrian,,<<< DISCREPANCY >>>,Yes,,<<< DISCREPANCY >>>
-PedNYC5,102,left_only,<<< DISCREPANCY >>>,Yes,,<<< DISCREPANCY >>>,Driver,,<<< DISCREPANCY >>>,Driver,,<<< DISCREPANCY >>>,Yes,,<<< DISCREPANCY >>>
-PedNYC5,103,left_only,<<< DISCREPANCY >>>,Yes,,<<< DISCREPANCY >>>,Driver,,<<< DISCREPANCY >>>,Driver,,<<< DISCREPANCY >>>,Yes,,<<< DISCREPANCY >>>
-PedNYC5,104,left_only,<<< DISCREPANCY >>>,Yes,,<<< DISCREPANCY >>>,Pedestrian,,<<< DISCREPANCY >>>,Both,,<<< DISCREPANCY >>>,Yes,,<<< DISCREPANCY >>>
-PedNYC5,105,left_only,<<< DISCREPANCY >>>,Unknown,,<<< DISCREPANCY >>>,Unknown,,<<< DISCREPANCY >>>,Unknown,,<<< DISCREPANCY >>>,Unknown,,<<< DISCREPANCY >>>
-PedNYC5,106,left_only,<<< DISCREPANCY >>>,No,,<<< DISCREPANCY >>>,Pedestrian,,<<< DISCREPANCY >>>,Pedestrian,,<<< DISCREPANCY >>>,Yes,,<<< DISCREPANCY >>>
 PedNYC5,12,both,<<< DISCREPANCY >>>,Yes,Yes,MATCH,Neither,Both,<<< DISCREPANCY >>>,Neither,Driver,<<< DISCREPANCY >>>,Yes,No,<<< DISCREPANCY >>>
 PedNYC5,16,both,<<< DISCREPANCY >>>,Yes,No,<<< DISCREPANCY >>>,Neither,Both,<<< DISCREPANCY >>>,Neither,Driver,<<< DISCREPANCY >>>,Yes,No,<<< DISCREPANCY >>>
 PedNYC5,21,both,<<< DISCREPANCY >>>,Yes,Yes,MATCH,Pedestrian,Pedestrian,MATCH,Pedestrian,Pedestrian,MATCH,Yes,No,<<< DISCREPANCY >>>
 PedNYC5,3,both,<<< DISCREPANCY >>>,Yes,Yes,MATCH,Driver,Driver,MATCH,Driver,Driver,MATCH,Yes,No,<<< DISCREPANCY >>>
 PedNYC5,7,both,<<< DISCREPANCY >>>,No,No,MATCH,Driver,Driver,MATCH,Driver,Driver,MATCH,Yes,No,<<< DISCREPANCY >>>
-PedNYC6,101,left_only,<<< DISCREPANCY >>>,Yes,,<<< DISCREPANCY >>>,Driver,,<<< DISCREPANCY >>>,Driver,,<<< DISCREPANCY >>>,Yes,,<<< DISCREPANCY >>>
-PedNYC6,102,left_only,<<< DISCREPANCY >>>,Yes,,<<< DISCREPANCY >>>,Pedestrian,,<<< DISCREPANCY >>>,Pedestrian,,<<< DISCREPANCY >>>,Yes,,<<< DISCREPANCY >>>
-PedNYC6,103,left_only,<<< DISCREPANCY >>>,No,,<<< DISCREPANCY >>>,Driver,,<<< DISCREPANCY >>>,Driver,,<<< DISCREPANCY >>>,Yes,,<<< DISCREPANCY >>>
-PedNYC6,104,left_only,<<< DISCREPANCY >>>,Yes,,<<< DISCREPANCY >>>,Pedestrian,,<<< DISCREPANCY >>>,Pedestrian,,<<< DISCREPANCY >>>,Yes,,<<< DISCREPANCY >>>
-PedNYC6,106,left_only,<<< DISCREPANCY >>>,No,,<<< DISCREPANCY >>>,Unknown,,<<< DISCREPANCY >>>,Unknown,,<<< DISCREPANCY >>>,Yes,,<<< DISCREPANCY >>>
 PedNYC6,12,right_only,<<< DISCREPANCY >>>,,,<<< DISCREPANCY >>>,,,<<< DISCREPANCY >>>,,,<<< DISCREPANCY >>>,,,<<< DISCREPANCY >>>
 PedNYC6,15,both,<<< DISCREPANCY >>>,No,Yes,<<< DISCREPANCY >>>,Unknown,Both,<<< DISCREPANCY >>>,Unknown,Driver,<<< DISCREPANCY >>>,Yes,Yes,MATCH
 PedNYC6,16,right_only,<<< DISCREPANCY >>>,,,<<< DISCREPANCY >>>,,,<<< DISCREPANCY >>>,,,<<< DISCREPANCY >>>,,,<<< DISCREPANCY >>>
 PedNYC6,21,both,<<< DISCREPANCY >>>,Yes,Yes,MATCH,Pedestrian,Pedestrian,MATCH,Pedestrian,Pedestrian,MATCH,Yes,No,<<< DISCREPANCY >>>
 PedNYC6,3,right_only,<<< DISCREPANCY >>>,,,<<< DISCREPANCY >>>,,,<<< DISCREPANCY >>>,,,<<< DISCREPANCY >>>,,,<<< DISCREPANCY >>>
 PedNYC6,7,both,<<< DISCREPANCY >>>,No,No,MATCH,Driver,Driver,MATCH,Driver,Driver,MATCH,Yes,No,<<< DISCREPANCY >>>
-PedNYC7,101,left_only,<<< DISCREPANCY >>>,Yes,,<<< DISCREPANCY >>>,Unknown,,<<< DISCREPANCY >>>,Unknown,,<<< DISCREPANCY >>>,Yes,,<<< DISCREPANCY >>>
-PedNYC7,102,left_only,<<< DISCREPANCY >>>,Yes,,<<< DISCREPANCY >>>,Driver,,<<< DISCREPANCY >>>,Driver,,<<< DISCREPANCY >>>,Yes,,<<< DISCREPANCY >>>
-PedNYC7,103,left_only,<<< DISCREPANCY >>>,Yes,,<<< DISCREPANCY >>>,Pedestrian,,<<< DISCREPANCY >>>,Pedestrian,,<<< DISCREPANCY >>>,Yes,,<<< DISCREPANCY >>>
-PedNYC7,104,left_only,<<< DISCREPANCY >>>,Yes,,<<< DISCREPANCY >>>,Pedestrian,,<<< DISCREPANCY >>>,Pedestrian,,<<< DISCREPANCY >>>,Yes,,<<< DISCREPANCY >>>
-PedNYC7,105,left_only,<<< DISCREPANCY >>>,No,,<<< DISCREPANCY >>>,Pedestrian,,<<< DISCREPANCY >>>,Both,,<<< DISCREPANCY >>>,Yes,,<<< DISCREPANCY >>>
-PedNYC7,106,left_only,<<< DISCREPANCY >>>,Yes,,<<< DISCREPANCY >>>,Pedestrian,,<<< DISCREPANCY >>>,Pedestrian,,<<< DISCREPANCY >>>,Yes,,<<< DISCREPANCY >>>
 PedNYC7,12,both,<<< DISCREPANCY >>>,No,Yes,<<< DISCREPANCY >>>,Neither,Both,<<< DISCREPANCY >>>,Neither,Driver,<<< DISCREPANCY >>>,Yes,No,<<< DISCREPANCY >>>
 PedNYC7,15,both,<<< DISCREPANCY >>>,Yes,No,<<< DISCREPANCY >>>,Driver,Both,<<< DISCREPANCY >>>,Driver,Driver,MATCH,Yes,No,<<< DISCREPANCY >>>
 PedNYC7,16,both,<<< DISCREPANCY >>>,Yes,No,<<< DISCREPANCY >>>,Neither,Both,<<< DISCREPANCY >>>,Neither,Driver,<<< DISCREPANCY >>>,Yes,No,<<< DISCREPANCY >>>
 PedNYC7,21,both,<<< DISCREPANCY >>>,Yes,No,<<< DISCREPANCY >>>,Pedestrian,Pedestrian,MATCH,Pedestrian,Pedestrian,MATCH,Yes,No,<<< DISCREPANCY >>>
 PedNYC7,3,both,<<< DISCREPANCY >>>,Yes,Yes,MATCH,Driver,Driver,MATCH,Driver,Driver,MATCH,Yes,No,<<< DISCREPANCY >>>
 PedNYC7,7,both,<<< DISCREPANCY >>>,No,No,MATCH,Pedestrian,Pedestrian,MATCH,Pedestrian,Pedestrian,MATCH,Yes,No,<<< DISCREPANCY >>>
-PedNYC8,101,left_only,<<< DISCREPANCY >>>,Yes,,<<< DISCREPANCY >>>,Pedestrian,,<<< DISCREPANCY >>>,Pedestrian,,<<< DISCREPANCY >>>,Yes,,<<< DISCREPANCY >>>
-PedNYC8,102,left_only,<<< DISCREPANCY >>>,Yes,,<<< DISCREPANCY >>>,Pedestrian,,<<< DISCREPANCY >>>,Pedestrian,,<<< DISCREPANCY >>>,Yes,,<<< DISCREPANCY >>>
-PedNYC8,103,left_only,<<< DISCREPANCY >>>,Yes,,<<< DISCREPANCY >>>,Pedestrian,,<<< DISCREPANCY >>>,Pedestrian,,<<< DISCREPANCY >>>,Yes,,<<< DISCREPANCY >>>
-PedNYC8,104,left_only,<<< DISCREPANCY >>>,Yes,,<<< DISCREPANCY >>>,Pedestrian,,<<< DISCREPANCY >>>,Both,,<<< DISCREPANCY >>>,Yes,,<<< DISCREPANCY >>>
-PedNYC8,105,left_only,<<< DISCREPANCY >>>,Yes,,<<< DISCREPANCY >>>,Pedestrian,,<<< DISCREPANCY >>>,Both,,<<< DISCREPANCY >>>,Yes,,<<< DISCREPANCY >>>
-PedNYC8,106,left_only,<<< DISCREPANCY >>>,Yes,,<<< DISCREPANCY >>>,Pedestrian,,<<< DISCREPANCY >>>,Pedestrian,,<<< DISCREPANCY >>>,Yes,,<<< DISCREPANCY >>>
 PedNYC8,12,both,<<< DISCREPANCY >>>,Yes,Yes,MATCH,Neither,Both,<<< DISCREPANCY >>>,Neither,Pedestrian,<<< DISCREPANCY >>>,Yes,No,<<< DISCREPANCY >>>
 PedNYC8,15,both,<<< DISCREPANCY >>>,Yes,Yes,MATCH,Pedestrian,Pedestrian,MATCH,Pedestrian,Pedestrian,MATCH,Yes,No,<<< DISCREPANCY >>>
 PedNYC8,16,both,<<< DISCREPANCY >>>,Yes,No,<<< DISCREPANCY >>>,Neither,Both,<<< DISCREPANCY >>>,Neither,Driver,<<< DISCREPANCY >>>,Yes,No,<<< DISCREPANCY >>>
 PedNYC8,21,both,<<< DISCREPANCY >>>,Unknown,Yes,<<< DISCREPANCY >>>,Unknown,Pedestrian,<<< DISCREPANCY >>>,Unknown,Pedestrian,<<< DISCREPANCY >>>,Unknown,No,<<< DISCREPANCY >>>
 PedNYC8,3,both,<<< DISCREPANCY >>>,Yes,Yes,MATCH,Pedestrian,Pedestrian,MATCH,Pedestrian,Pedestrian,MATCH,Yes,No,<<< DISCREPANCY >>>
 PedNYC8,7,both,<<< DISCREPANCY >>>,No,No,MATCH,Driver,Pedestrian,<<< DISCREPANCY >>>,Driver,Driver,MATCH,Yes,No,<<< DISCREPANCY >>>
-PedNYC9,101,left_only,<<< DISCREPANCY >>>,No,,<<< DISCREPANCY >>>,Driver,,<<< DISCREPANCY >>>,Driver,,<<< DISCREPANCY >>>,Yes,,<<< DISCREPANCY >>>
-PedNYC9,102,left_only,<<< DISCREPANCY >>>,Yes,,<<< DISCREPANCY >>>,Pedestrian,,<<< DISCREPANCY >>>,Pedestrian,,<<< DISCREPANCY >>>,Yes,,<<< DISCREPANCY >>>
-PedNYC9,103,left_only,<<< DISCREPANCY >>>,No,,<<< DISCREPANCY >>>,Pedestrian,,<<< DISCREPANCY >>>,Pedestrian,,<<< DISCREPANCY >>>,Yes,,<<< DISCREPANCY >>>
-PedNYC9,104,left_only,<<< DISCREPANCY >>>,No,,<<< DISCREPANCY >>>,Pedestrian,,<<< DISCREPANCY >>>,Pedestrian,,<<< DISCREPANCY >>>,Yes,,<<< DISCREPANCY >>>
-PedNYC9,105,left_only,<<< DISCREPANCY >>>,No,,<<< DISCREPANCY >>>,Pedestrian,,<<< DISCREPANCY >>>,Both,,<<< DISCREPANCY >>>,Yes,,<<< DISCREPANCY >>>
-PedNYC9,106,left_only,<<< DISCREPANCY >>>,Yes,,<<< DISCREPANCY >>>,Pedestrian,,<<< DISCREPANCY >>>,Pedestrian,,<<< DISCREPANCY >>>,Yes,,<<< DISCREPANCY >>>
 PedNYC9,12,both,<<< DISCREPANCY >>>,No,No,MATCH,Neither,Both,<<< DISCREPANCY >>>,Neither,Driver,<<< DISCREPANCY >>>,Yes,No,<<< DISCREPANCY >>>
 PedNYC9,15,both,<<< DISCREPANCY >>>,No,No,MATCH,Unknown,Neither,<<< DISCREPANCY >>>,Unknown,Driver,<<< DISCREPANCY >>>,Yes,No,<<< DISCREPANCY >>>
 PedNYC9,16,both,<<< DISCREPANCY >>>,No,No,MATCH,Neither,Both,<<< DISCREPANCY >>>,Neither,Driver,<<< DISCREPANCY >>>,Yes,No,<<< DISCREPANCY >>>
