@@ -37,6 +37,12 @@ def compare(prediction_path: Path, ground_truth_path: Path, output_dir: Path) ->
     # not clutter the visual discrepancy review.
     prediction_only_count = int((merged["_merge"] == "left_only").sum())
     merged = merged[merged["_merge"] != "left_only"].reset_index(drop=True)
+    scenario_order = {scenario: position for position, scenario in enumerate(["3", "7", "12", "15", "16", "21"])}
+    merged["_study_sort"] = merged["StudyFolder"].str.extract(r"(\d+)", expand=False).astype(int)
+    merged["_scenario_sort"] = merged["ScenarioName"].map(scenario_order).fillna(999).astype(int)
+    merged = merged.sort_values(
+        ["_study_sort", "_scenario_sort", "ScenarioName"], kind="stable"
+    ).drop(columns=["_study_sort", "_scenario_sort"]).reset_index(drop=True)
     comparison = merged[["StudyFolder", "ScenarioName", "_merge"]].copy()
     field_stats = []
     mismatch_any = pd.Series(False, index=merged.index)
