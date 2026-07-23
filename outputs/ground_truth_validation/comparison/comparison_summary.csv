@@ -1,0 +1,7 @@
+field,matched_rows,exact_matches,accuracy
+Did the driver signal,162,122,0.7530864197530864
+How does vehicle speed change?,162,3,0.018518518518518517
+How does pedestrian speed change?,162,18,0.1111111111111111
+Who has the right of way?（Who reached the intersection first?）,162,77,0.47530864197530864
+Who went first？,162,94,0.5802469135802469
+Did the pedestrian use hand gestures?,162,31,0.19135802469135801

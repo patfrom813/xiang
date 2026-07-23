@@ -1,0 +1,8 @@
+{
+  "prediction_rows": 325,
+  "ground_truth_rows": 186,
+  "joined_rows": 162,
+  "prediction_only": 163,
+  "ground_truth_only": 24,
+  "joined_rows_with_discrepancy": 161
+}
