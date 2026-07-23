@@ -31,3 +31,16 @@ Checkpoint 2 recommended command (after its implementation):
 ```powershell
 python run_pipeline.py checkpoint-02 --manifest outputs/checkpoints/checkpoint_01_decoding_manifest.csv
 ```
+
+## Driver signal analysis
+
+Parse the raw left/right Boolean indicator states, update trial summaries, and
+regenerate the PedNYC1 pilot driver-signal timelines with:
+
+```powershell
+python run_driver_signals.py --pilot-study PedNYC1
+```
+
+Short one-frame pulses are rejected. Valid turn-signal pulses separated by no
+more than 0.75 seconds are merged as one blinking event; the raw Boolean trace
+remains in the frame-level feature CSV.
