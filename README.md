@@ -41,6 +41,12 @@ regenerate the PedNYC1 pilot driver-signal timelines with:
 python run_driver_signals.py --pilot-study PedNYC1
 ```
 
+Generate the same graph for every successfully analyzed trial with:
+
+```powershell
+python run_driver_signals.py --pilot-study all --graphs-only
+```
+
 Short one-frame pulses are rejected. Valid turn-signal pulses separated by no
 more than 0.75 seconds are merged as one blinking event; the raw Boolean trace
 remains in the frame-level feature CSV.

@@ -331,7 +331,7 @@ def update_driver_signal_outputs(root: Path, *, pilot_study: str = "PedNYC1") ->
         feature_frame.to_csv(temporary, index=False)
         temporary.replace(feature)
         processed += 1
-        if study == pilot_study:
+        if pilot_study.casefold() == "all" or study == pilot_study:
             graph = root / "outputs" / "trials" / study / f"scenario_{scenario}" / session / "01_driver_signal_timeline.png"
             plot_driver_signal_timeline(feature_frame, parsed, summary, graph)
             graph_paths.append(str(graph))
@@ -351,14 +351,16 @@ def regenerate_pilot_graphs(root: Path, *, pilot_study: str = "PedNYC1") -> list
     root = root.resolve()
     outcomes = pd.read_csv(root / "outputs" / "summary" / "trial_outcomes.csv", dtype=str, keep_default_na=False)
     paths: list[str] = []
-    for _, trial in outcomes[outcomes.study == pilot_study].iterrows():
+    selected = outcomes if pilot_study.casefold() == "all" else outcomes[outcomes.study == pilot_study]
+    for _, trial in selected.iterrows():
+        study = trial["study"]
         source_stem = Path(trial["source_file"]).stem
-        feature = root / "data" / "processed" / "features" / pilot_study / f"{source_stem}_features.csv"
+        feature = root / "data" / "processed" / "features" / study / f"{source_stem}_features.csv"
         frame = pd.read_csv(feature, dtype=str, keep_default_na=False, low_memory=False)
         frame.columns = [str(column).strip() for column in frame.columns]
         parsed = parse_indicator_series(frame["A_indicators"])
         summary, _ = summarize_trial(pd.to_numeric(frame["ScenarioTime_sec"], errors="coerce"), parsed)
-        graph = root / "outputs" / "trials" / pilot_study / f"scenario_{trial['scenario']}" / trial["session"] / "01_driver_signal_timeline.png"
+        graph = root / "outputs" / "trials" / study / f"scenario_{trial['scenario']}" / trial["session"] / "01_driver_signal_timeline.png"
         plot_driver_signal_timeline(frame, parsed, summary, graph)
         paths.append(str(graph))
     return paths
@@ -367,7 +369,11 @@ def regenerate_pilot_graphs(root: Path, *, pilot_study: str = "PedNYC1") -> list
 def main() -> None:
     parser = argparse.ArgumentParser(description="Parse Boolean driver indicators and regenerate driver-signal summaries/plots")
     parser.add_argument("--root", default=".")
-    parser.add_argument("--pilot-study", default="PedNYC1")
+    parser.add_argument(
+        "--pilot-study",
+        default="PedNYC1",
+        help="study to graph, or 'all' to graph every analyzed trial",
+    )
     parser.add_argument("--graphs-only", action="store_true")
     args = parser.parse_args()
     if args.graphs_only:
