@@ -1,326 +1,326 @@
-﻿StudyFolder,ScenarioName,Did the driver signal,How does vehicle speed change?,How does pedestrian speed change?,Who has the right of way?（Who reached the intersection first?）,Who went first？,Did the pedestrian use hand gestures?
-PedNYC1,3,Yes,Speeding up then Slowing down then Speeding up then Slowing down then Speeding up then Slowing down,Not walking,Pedestrian,Pedestrian,Yes
-PedNYC1,7,No,Speeding up then Slowing down then Speeding up then Slowing down then Speeding up then Slowing down then Speeding up then Slowing down,Speeding up,Pedestrian,Pedestrian,Yes
-PedNYC1,12,Yes,Speeding up then Slowing down then Speeding up then Slowing down,Not walking,Neither,Neither,Yes
-PedNYC1,15,Yes,Speeding up then Slowing down then Speeding up then Slowing down then Speeding up then Slowing down then Speeding up then Slowing down,Slowing down then Speeding up then Slowing down,Pedestrian,Pedestrian,Yes
-PedNYC1,16,Yes,Speeding up then Slowing down then Speeding up then Slowing down,Slowing down then Speeding up then Slowing down,Neither,Neither,Yes
-PedNYC1,21,Yes,Speeding up then Slowing down then Speeding up then Slowing down then Speeding up then Slowing down then Speeding up then Slowing down,Not walking,Pedestrian,Pedestrian,Yes
-PedNYC1,101,Yes,Speeding up then Slowing down then Speeding up then Slowing down then Speeding up then Slowing down then Speeding up then Slowing down then Speeding up then Slowing down then Speeding up then Slowing down,Not walking,Pedestrian,Pedestrian,Yes
-PedNYC1,102,Yes,Speeding up then Slowing down then Speeding up then Slowing down then Speeding up then Slowing down then Speeding up then Slowing down then Speeding up then Slowing down then Speeding up then Slowing down,Not walking,Pedestrian,Pedestrian,Yes
-PedNYC1,103,Yes,Speeding up then Slowing down then Speeding up then Slowing down then Speeding up then Slowing down then Speeding up then Slowing down,Speeding up then Slowing down then Speeding up then Slowing down,Pedestrian,Pedestrian,Yes
-PedNYC1,104,Yes,Speeding up then Slowing down then Speeding up then Slowing down then Speeding up then Slowing down,Not walking,Pedestrian,Pedestrian,Yes
-PedNYC1,105,Yes,Not moving,Slowing down,Pedestrian,Both,Yes
-PedNYC1,106,Yes,Speeding up then Slowing down then Speeding up then Slowing down then Speeding up then Slowing down,Not walking,Pedestrian,Pedestrian,Yes
-PedNYC2,3,No,Speeding up then Slowing down then Speeding up then Slowing down,No change,Driver,Driver,Yes
-PedNYC2,7,No,Not moving,Speeding up then Slowing down,Pedestrian,Pedestrian,Yes
-PedNYC2,12,Yes,Speeding up then Slowing down then Speeding up then Slowing down,Not walking,Neither,Neither,Yes
-PedNYC2,15,Yes,Speeding up then Slowing down then Speeding up then Slowing down then Speeding up then Slowing down,Speeding up then Slowing down,Unknown,Unknown,Yes
-PedNYC2,16,Yes,Speeding up then Slowing down,Not walking,Neither,Neither,Yes
-PedNYC2,21,Yes,Speeding up then Slowing down,No change,Unknown,Unknown,Yes
-PedNYC2,101,Yes,Speeding up then Slowing down then Speeding up then Slowing down,Not walking,Pedestrian,Pedestrian,Yes
-PedNYC2,102,Yes,Speeding up then Slowing down then Speeding up then Slowing down,Not walking,Pedestrian,Pedestrian,Yes
-PedNYC2,103,Yes,Speeding up then Slowing down then Speeding up then Slowing down then Speeding up then Slowing down,Not walking,Pedestrian,Pedestrian,Yes
-PedNYC2,104,Yes,Speeding up then Slowing down then Speeding up then Slowing down,Slowing down,Pedestrian,Pedestrian,Yes
-PedNYC2,105,Yes,Speeding up then Slowing down then Speeding up then Slowing down then Speeding up then Slowing down,Speeding up then Slowing down,Pedestrian,Pedestrian,Yes
-PedNYC2,106,No,Speeding up then Slowing down,Not walking,Pedestrian,Pedestrian,Yes
-PedNYC3,3,Yes,Speeding up then Slowing down then Speeding up then Slowing down,Slowing down then Speeding up then Slowing down,Driver,Driver,Yes
-PedNYC3,7,No,Speeding up then Slowing down then Speeding up then Slowing down,Speeding up,Driver,Driver,Yes
-PedNYC3,12,Yes,Speeding up then Slowing down then Speeding up then Slowing down,Speeding up,Neither,Neither,Yes
-PedNYC3,15,Yes,Speeding up then Slowing down then Speeding up then Slowing down then Speeding up then Slowing down then Speeding up then Slowing down,Speeding up then Slowing down then Speeding up then Slowing down,Driver,Driver,Yes
-PedNYC3,16,Yes,Speeding up then Slowing down,Slowing down,Neither,Neither,Yes
-PedNYC3,21,Yes,Speeding up then Slowing down then Speeding up then Slowing down then Speeding up then Slowing down then Speeding up then Slowing down then Speeding up then Slowing down,Not walking,Pedestrian,Pedestrian,Yes
-PedNYC3,101,Yes,Speeding up then Slowing down then Speeding up then Slowing down,Not walking,Driver,Driver,Yes
-PedNYC3,102,Yes,Speeding up then Slowing down then Speeding up then Slowing down then Speeding up then Slowing down,Not walking,Pedestrian,Pedestrian,Yes
-PedNYC3,103,Yes,Speeding up then Slowing down then Speeding up then Slowing down then Speeding up then Slowing down,Slowing down,Pedestrian,Pedestrian,Yes
-PedNYC3,104,Yes,Speeding up then Slowing down then Speeding up then Slowing down then Speeding up then Slowing down then Speeding up then Slowing down,Speeding up then Slowing down,Pedestrian,Pedestrian,Yes
-PedNYC3,105,Yes,Speeding up then Slowing down then Speeding up then Slowing down,Speeding up then Slowing down then Speeding up then Slowing down,Pedestrian,Both,Yes
-PedNYC3,106,Yes,Speeding up then Slowing down then Speeding up then Slowing down then Speeding up then Slowing down,Not walking,Pedestrian,Pedestrian,Yes
-PedNYC4,3,Yes,Speeding up then Slowing down then Speeding up then Slowing down then Speeding up then Slowing down then Speeding up then Slowing down then Speeding up then Slowing down then Speeding up then Slowing down,Not walking,Pedestrian,Pedestrian,Yes
-PedNYC4,7,No,Not moving,Slowing down,Driver,Driver,Yes
-PedNYC4,12,Yes,Speeding up then Slowing down then Speeding up then Slowing down then Speeding up then Slowing down,Not walking,Neither,Neither,Yes
-PedNYC4,15,Yes,Not moving,Slowing down,Driver,Driver,Yes
-PedNYC4,16,Yes,Not moving,Not walking,Neither,Neither,Yes
-PedNYC4,21,Yes,Speeding up then Slowing down then Speeding up then Slowing down then Speeding up then Slowing down then Speeding up then Slowing down then Speeding up then Slowing down then Speeding up then Slowing down then Speeding up then Slowing down then Speeding up then Slowing down then Speeding up then Slowing down,Not walking,Pedestrian,Pedestrian,Yes
-PedNYC4,101,No,Speeding up then Slowing down then Speeding up then Slowing down then Speeding up then Slowing down then Speeding up then Slowing down then Speeding up then Slowing down then Speeding up then Slowing down,Not walking,Pedestrian,Pedestrian,Yes
-PedNYC4,102,Yes,Speeding up then Slowing down then Speeding up then Slowing down then Speeding up then Slowing down then Speeding up then Slowing down then Speeding up then Slowing down then Speeding up then Slowing down,Speeding up then Slowing down then Speeding up,Pedestrian,Pedestrian,Yes
-PedNYC4,103,No,Speeding up then Slowing down then Speeding up then Slowing down,Slowing down then Speeding up,Driver,Driver,Yes
-PedNYC4,104,Yes,Speeding up then Slowing down then Speeding up then Slowing down then Speeding up then Slowing down then Speeding up then Slowing down then Speeding up then Slowing down then Speeding up then Slowing down then Speeding up then Slowing down,Not walking,Pedestrian,Pedestrian,Yes
-PedNYC4,105,Yes,Not moving,Not walking,Pedestrian,Pedestrian,Yes
-PedNYC4,106,Yes,Speeding up then Slowing down then Speeding up then Slowing down,Not walking,Pedestrian,Pedestrian,Yes
-PedNYC5,3,Yes,Not moving,Speeding up then Slowing down,Driver,Driver,Yes
-PedNYC5,7,No,Not moving,No change,Driver,Driver,Yes
-PedNYC5,12,Yes,Speeding up then Slowing down then Speeding up then Slowing down,Not walking,Neither,Neither,Yes
-PedNYC5,15,Yes,Speeding up then Slowing down then Speeding up then Slowing down then Speeding up then Slowing down then Speeding up then Slowing down then Speeding up then Slowing down then Speeding up then Slowing down,Not walking,Pedestrian,Pedestrian,Yes
-PedNYC5,16,Yes,Speeding up then Slowing down,Not walking,Neither,Neither,Yes
-PedNYC5,21,Yes,Speeding up then Slowing down then Speeding up then Slowing down then Speeding up then Slowing down then Speeding up then Slowing down then Speeding up then Slowing down,Not walking,Pedestrian,Pedestrian,Yes
-PedNYC5,101,Yes,Speeding up then Slowing down then Speeding up then Slowing down then Speeding up then Slowing down,Not walking,Pedestrian,Pedestrian,Yes
-PedNYC5,102,Yes,Speeding up then Slowing down then Speeding up then Slowing down then Speeding up then Slowing down then Speeding up then Slowing down,Not walking,Driver,Driver,Yes
-PedNYC5,103,Yes,Speeding up then Slowing down then Speeding up then Slowing down then Speeding up then Slowing down,Not walking,Driver,Driver,Yes
-PedNYC5,104,Yes,Speeding up then Slowing down then Speeding up then Slowing down,Speeding up then Slowing down then Speeding up then Slowing down,Pedestrian,Both,Yes
-PedNYC5,105,Unknown,Unknown,Unknown,Unknown,Unknown,Unknown
-PedNYC5,106,No,Speeding up then Slowing down then Speeding up then Slowing down then Speeding up then Slowing down then Speeding up then Slowing down,Not walking,Pedestrian,Pedestrian,Yes
-PedNYC6,7,No,Not moving,Not walking,Driver,Driver,Yes
-PedNYC6,15,No,No change,No change,Unknown,Unknown,Yes
-PedNYC6,21,Yes,Speeding up then Slowing down then Speeding up then Slowing down then Speeding up then Slowing down then Speeding up then Slowing down,Not walking,Pedestrian,Pedestrian,Yes
-PedNYC6,101,Yes,Speeding up then Slowing down then Speeding up then Slowing down then Speeding up then Slowing down,Not walking,Driver,Driver,Yes
-PedNYC6,102,Yes,Speeding up then Slowing down then Speeding up then Slowing down then Speeding up then Slowing down,Not walking,Pedestrian,Pedestrian,Yes
-PedNYC6,103,No,Speeding up then Slowing down then Speeding up then Slowing down then Speeding up then Slowing down then Speeding up then Slowing down,Speeding up,Driver,Driver,Yes
-PedNYC6,104,Yes,Speeding up then Slowing down then Speeding up then Slowing down then Speeding up then Slowing down then Speeding up then Slowing down then Speeding up then Slowing down,Speeding up then Slowing down then Speeding up then Slowing down,Pedestrian,Pedestrian,Yes
-PedNYC6,106,No,No change,Not walking,Unknown,Unknown,Yes
-PedNYC7,3,Yes,Not moving,Slowing down,Driver,Driver,Yes
-PedNYC7,7,No,Speeding up then Slowing down then Speeding up then Slowing down then Speeding up then Slowing down then Speeding up then Slowing down,Not walking,Pedestrian,Pedestrian,Yes
-PedNYC7,12,No,Not moving,Slowing down,Neither,Neither,Yes
-PedNYC7,15,Yes,Speeding up then Slowing down then Speeding up then Slowing down then Speeding up then Slowing down then Speeding up then Slowing down then Speeding up then Slowing down,Speeding up,Driver,Driver,Yes
-PedNYC7,16,Yes,Speeding up then Slowing down then Speeding up then Slowing down then Speeding up then Slowing down,Slowing down,Neither,Neither,Yes
-PedNYC7,21,Yes,Speeding up then Slowing down then Speeding up then Slowing down then Speeding up then Slowing down then Speeding up then Slowing down then Speeding up then Slowing down then Speeding up then Slowing down,Not walking,Pedestrian,Pedestrian,Yes
-PedNYC7,101,Yes,Not moving,No change,Unknown,Unknown,Yes
-PedNYC7,102,Yes,Speeding up then Slowing down then Speeding up then Slowing down then Speeding up then Slowing down then Speeding up then Slowing down then Speeding up then Slowing down,Not walking,Driver,Driver,Yes
-PedNYC7,103,Yes,Speeding up then Slowing down then Speeding up then Slowing down then Speeding up then Slowing down,Slowing down then Speeding up,Pedestrian,Pedestrian,Yes
-PedNYC7,104,Yes,Speeding up then Slowing down then Speeding up then Slowing down then Speeding up then Slowing down then Speeding up then Slowing down then Speeding up then Slowing down,Not walking,Pedestrian,Pedestrian,Yes
-PedNYC7,105,No,Not moving,No change,Pedestrian,Both,Yes
-PedNYC7,106,Yes,Speeding up then Slowing down then Speeding up then Slowing down then Speeding up then Slowing down,Not walking,Pedestrian,Pedestrian,Yes
-PedNYC8,3,Yes,Not moving,Not walking,Pedestrian,Pedestrian,Yes
-PedNYC8,7,No,Not moving,Speeding up then Slowing down,Driver,Driver,Yes
-PedNYC8,12,Yes,Speeding up then Slowing down then Speeding up then Slowing down,Not walking,Neither,Neither,Yes
-PedNYC8,15,Yes,Speeding up then Slowing down then Speeding up then Slowing down then Speeding up then Slowing down,Not walking,Pedestrian,Pedestrian,Yes
-PedNYC8,16,Yes,Speeding up then Slowing down,Not walking,Neither,Neither,Yes
-PedNYC8,21,Unknown,Unknown,Unknown,Unknown,Unknown,Unknown
-PedNYC8,101,Yes,Not moving,Not walking,Pedestrian,Pedestrian,Yes
-PedNYC8,102,Yes,Speeding up then Slowing down then Speeding up then Slowing down then Speeding up then Slowing down,No change,Pedestrian,Pedestrian,Yes
-PedNYC8,103,Yes,Speeding up then Slowing down,Speeding up then Slowing down,Pedestrian,Pedestrian,Yes
-PedNYC8,104,Yes,Not moving,Slowing down then Speeding up,Pedestrian,Both,Yes
-PedNYC8,105,Yes,Speeding up then Slowing down then Speeding up then Slowing down then Speeding up then Slowing down,Not walking,Pedestrian,Both,Yes
-PedNYC8,106,Yes,Speeding up then Slowing down,Speeding up then Slowing down,Pedestrian,Pedestrian,Yes
-PedNYC9,3,Yes,Speeding up then Slowing down then Speeding up then Slowing down then Speeding up then Slowing down then Speeding up then Slowing down then Speeding up then Slowing down,Speeding up then Slowing down,Pedestrian,Pedestrian,Yes
-PedNYC9,7,No,Speeding up then Slowing down then Speeding up then Slowing down then Speeding up then Slowing down then Speeding up then Slowing down,Not walking,Pedestrian,Pedestrian,Yes
-PedNYC9,12,No,Not moving,Not walking,Neither,Neither,Yes
-PedNYC9,15,No,Speeding up then Slowing down then Speeding up then Slowing down then Speeding up then Slowing down,Speeding up,Unknown,Unknown,Yes
-PedNYC9,16,No,Speeding up then Slowing down then Speeding up then Slowing down then Speeding up then Slowing down,Speeding up,Neither,Neither,Yes
-PedNYC9,21,No,Speeding up then Slowing down then Speeding up then Slowing down then Speeding up then Slowing down then Speeding up then Slowing down then Speeding up then Slowing down,Slowing down then Speeding up,Driver,Driver,Yes
-PedNYC9,101,No,Speeding up then Slowing down then Speeding up then Slowing down then Speeding up then Slowing down then Speeding up then Slowing down,Not walking,Driver,Driver,Yes
-PedNYC9,102,Yes,Speeding up then Slowing down then Speeding up then Slowing down then Speeding up then Slowing down then Speeding up then Slowing down then Speeding up then Slowing down,Not walking,Pedestrian,Pedestrian,Yes
-PedNYC9,103,No,Speeding up then Slowing down then Speeding up then Slowing down then Speeding up then Slowing down then Speeding up then Slowing down then Speeding up then Slowing down,Slowing down,Pedestrian,Pedestrian,Yes
-PedNYC9,104,No,Speeding up then Slowing down then Speeding up then Slowing down then Speeding up then Slowing down,Slowing down,Pedestrian,Pedestrian,Yes
-PedNYC9,105,No,Speeding up then Slowing down then Speeding up then Slowing down then Speeding up then Slowing down then Speeding up then Slowing down,Speeding up then Slowing down,Pedestrian,Both,Yes
-PedNYC9,106,Yes,Speeding up then Slowing down,Not walking,Pedestrian,Pedestrian,Yes
-PedNYC10,3,Yes,Speeding up then Slowing down then Speeding up then Slowing down then Speeding up then Slowing down then Speeding up then Slowing down then Speeding up then Slowing down then Speeding up then Slowing down,Not walking,Pedestrian,Pedestrian,Yes
-PedNYC10,7,No,Speeding up then Slowing down then Speeding up then Slowing down then Speeding up then Slowing down,Speeding up then Slowing down,Pedestrian,Pedestrian,Yes
-PedNYC10,12,Unknown,Unknown,Unknown,Unknown,Unknown,Unknown
-PedNYC10,16,Yes,Speeding up then Slowing down then Speeding up then Slowing down then Speeding up then Slowing down then Speeding up then Slowing down,Not walking,Neither,Neither,Yes
-PedNYC10,21,Unknown,Unknown,Unknown,Unknown,Unknown,Unknown
-PedNYC10,101,Yes,Speeding up then Slowing down then Speeding up then Slowing down then Speeding up then Slowing down then Speeding up then Slowing down,Slowing down,Driver,Driver,Yes
-PedNYC10,102,Yes,Speeding up then Slowing down then Speeding up then Slowing down then Speeding up then Slowing down then Speeding up then Slowing down then Speeding up then Slowing down then Speeding up then Slowing down,Not walking,Pedestrian,Pedestrian,Yes
-PedNYC10,104,Yes,Speeding up then Slowing down then Speeding up then Slowing down then Speeding up then Slowing down then Speeding up then Slowing down,Not walking,Pedestrian,Both,Yes
-PedNYC10,105,Yes,Speeding up then Slowing down then Speeding up then Slowing down then Speeding up then Slowing down then Speeding up then Slowing down,Slowing down,Pedestrian,Both,Yes
-PedNYC11,3,Yes,Not moving,Speeding up then Slowing down,Driver,Driver,Yes
-PedNYC11,7,No,Not moving,Slowing down,Driver,Driver,Yes
-PedNYC11,12,Yes,Speeding up then Slowing down then Speeding up then Slowing down then Speeding up then Slowing down then Speeding up then Slowing down then Speeding up then Slowing down,Not walking,Neither,Neither,Yes
-PedNYC11,15,Yes,Speeding up then Slowing down then Speeding up then Slowing down then Speeding up then Slowing down then Speeding up then Slowing down then Speeding up then Slowing down then Speeding up then Slowing down then Speeding up then Slowing down,Not walking,Pedestrian,Pedestrian,Yes
-PedNYC11,16,Yes,Speeding up then Slowing down then Speeding up then Slowing down then Speeding up then Slowing down then Speeding up then Slowing down then Speeding up then Slowing down then Speeding up then Slowing down,Not walking,Neither,Neither,Yes
-PedNYC11,21,Yes,Speeding up then Slowing down then Speeding up then Slowing down then Speeding up then Slowing down then Speeding up then Slowing down then Speeding up then Slowing down then Speeding up then Slowing down then Speeding up then Slowing down,Not walking,Pedestrian,Pedestrian,Yes
-PedNYC11,101,Yes,Speeding up then Slowing down then Speeding up then Slowing down then Speeding up then Slowing down then Speeding up then Slowing down then Speeding up then Slowing down,Not walking,Pedestrian,Pedestrian,Yes
-PedNYC11,102,Yes,Speeding up then Slowing down then Speeding up then Slowing down then Speeding up then Slowing down then Speeding up then Slowing down then Speeding up then Slowing down,Not walking,Pedestrian,Pedestrian,Yes
-PedNYC11,103,Yes,Speeding up then Slowing down then Speeding up then Slowing down then Speeding up then Slowing down then Speeding up then Slowing down,No change,Pedestrian,Pedestrian,Yes
-PedNYC11,104,Yes,Speeding up then Slowing down then Speeding up then Slowing down then Speeding up then Slowing down then Speeding up then Slowing down,Not walking,Pedestrian,Both,Yes
-PedNYC11,105,Yes,Not moving,Not walking,Pedestrian,Both,Yes
-PedNYC11,106,No,Speeding up then Slowing down then Speeding up then Slowing down,Not walking,Driver,Driver,Yes
-PedNYC12,3,Yes,Not moving,Slowing down,Driver,Driver,Yes
-PedNYC12,7,No,Speeding up then Slowing down then Speeding up then Slowing down,Slowing down,Driver,Driver,Yes
-PedNYC12,12,Yes,Speeding up then Slowing down then Speeding up then Slowing down,Not walking,Neither,Neither,Yes
-PedNYC12,15,Yes,Speeding up then Slowing down then Speeding up then Slowing down,Slowing down,Driver,Driver,Yes
-PedNYC12,16,Yes,Speeding up then Slowing down,Not walking,Neither,Neither,Yes
-PedNYC12,21,Yes,Speeding up then Slowing down then Speeding up then Slowing down,Not walking,Pedestrian,Pedestrian,Yes
-PedNYC12,101,Yes,Speeding up then Slowing down then Speeding up then Slowing down,Slowing down,Driver,Driver,Yes
-PedNYC12,102,Yes,Speeding up then Slowing down then Speeding up then Slowing down,Not walking,Driver,Driver,Yes
-PedNYC12,103,Yes,Speeding up then Slowing down then Speeding up then Slowing down,Speeding up then Slowing down,Driver,Driver,Yes
-PedNYC12,104,Yes,Not moving,Slowing down,Pedestrian,Both,Yes
-PedNYC12,105,Yes,Speeding up then Slowing down then Speeding up then Slowing down,Speeding up then Slowing down,Pedestrian,Both,Yes
-PedNYC12,106,Yes,Speeding up then Slowing down then Speeding up then Slowing down,Slowing down,Pedestrian,Pedestrian,Yes
-PedNYC13,3,Yes,Not moving,Not walking,Pedestrian,Pedestrian,Yes
-PedNYC13,7,No,Not moving,Not walking,Pedestrian,Pedestrian,Yes
-PedNYC13,12,Yes,Speeding up then Slowing down then Speeding up then Slowing down,Not walking,Neither,Neither,Yes
-PedNYC13,15,Yes,Speeding up then Slowing down then Speeding up then Slowing down then Speeding up then Slowing down,Speeding up,Unknown,Unknown,Yes
-PedNYC13,16,Yes,Speeding up then Slowing down then Speeding up then Slowing down,Not walking,Neither,Neither,Yes
-PedNYC13,21,Yes,Speeding up then Slowing down then Speeding up then Slowing down then Speeding up then Slowing down then Speeding up then Slowing down,Speeding up,Pedestrian,Pedestrian,Yes
-PedNYC13,101,Yes,Not moving,Not walking,Pedestrian,Pedestrian,Yes
-PedNYC13,102,Yes,Speeding up then Slowing down then Speeding up then Slowing down,Not walking,Driver,Driver,Yes
-PedNYC13,103,Yes,Speeding up then Slowing down then Speeding up then Slowing down then Speeding up then Slowing down then Speeding up then Slowing down,Slowing down,Driver,Driver,Yes
-PedNYC13,104,Yes,Not moving,Not walking,Pedestrian,Pedestrian,Yes
-PedNYC13,105,Yes,Not moving,Speeding up then Slowing down,Pedestrian,Pedestrian,Yes
-PedNYC13,106,No,Speeding up then Slowing down then Speeding up then Slowing down,Not walking,Pedestrian,Pedestrian,Yes
-PedNYC15,3,Yes,Speeding up then Slowing down then Speeding up then Slowing down then Speeding up then Slowing down then Speeding up then Slowing down,Not walking,Pedestrian,Pedestrian,Yes
-PedNYC15,12,Yes,Not moving,Not walking,Neither,Neither,Yes
-PedNYC15,15,Yes,Not moving,Not walking,Pedestrian,Pedestrian,Yes
-PedNYC15,16,Yes,Speeding up then Slowing down then Speeding up then Slowing down,Slowing down,Neither,Neither,Yes
-PedNYC15,102,Yes,Speeding up then Slowing down then Speeding up then Slowing down then Speeding up then Slowing down,Not walking,Pedestrian,Pedestrian,Yes
-PedNYC15,103,Yes,Speeding up then Slowing down then Speeding up then Slowing down then Speeding up then Slowing down then Speeding up then Slowing down then Speeding up then Slowing down,Not walking,Pedestrian,Pedestrian,Yes
-PedNYC15,106,Yes,Speeding up then Slowing down then Speeding up then Slowing down then Speeding up then Slowing down,Not walking,Pedestrian,Pedestrian,Yes
-PedNYC16,3,Yes,Not moving,Not walking,Driver,Driver,Yes
-PedNYC16,7,Unknown,Unknown,Unknown,Unknown,Unknown,Unknown
-PedNYC16,12,Yes,Not moving,Slowing down,Neither,Neither,Yes
-PedNYC16,15,Yes,Not moving,Not walking,Unknown,Unknown,Yes
-PedNYC16,16,Yes,Speeding up then Slowing down then Speeding up then Slowing down then Speeding up then Slowing down then Speeding up then Slowing down,No change,Neither,Neither,No
-PedNYC16,21,Yes,Not moving,Speeding up then Slowing down,Pedestrian,Pedestrian,Yes
-PedNYC16,101,Yes,Speeding up then Slowing down then Speeding up then Slowing down then Speeding up then Slowing down then Speeding up then Slowing down then Speeding up then Slowing down then Speeding up then Slowing down,Not walking,Pedestrian,Pedestrian,Yes
-PedNYC16,102,Yes,Not moving,Speeding up then Slowing down,Pedestrian,Pedestrian,Yes
-PedNYC16,103,Yes,Speeding up then Slowing down then Speeding up then Slowing down then Speeding up then Slowing down then Speeding up then Slowing down,Not walking,Driver,Driver,No
-PedNYC16,104,Yes,Not moving,Speeding up then Slowing down,Pedestrian,Both,Yes
-PedNYC16,105,Yes,Speeding up then Slowing down then Speeding up then Slowing down then Speeding up then Slowing down then Speeding up then Slowing down then Speeding up then Slowing down then Speeding up then Slowing down then Speeding up then Slowing down,Speeding up then Slowing down,Pedestrian,Both,Yes
-PedNYC16,106,Yes,Speeding up then Slowing down then Speeding up then Slowing down then Speeding up then Slowing down,Not walking,Pedestrian,Pedestrian,Yes
-PedNYC17,3,Yes,Not moving,Slowing down then Speeding up then Slowing down then Speeding up then Slowing down,Pedestrian,Pedestrian,Yes
-PedNYC17,7,No,Speeding up then Slowing down then Speeding up then Slowing down,Not walking,Pedestrian,Pedestrian,Yes
-PedNYC17,12,Unknown,Unknown,Unknown,Unknown,Unknown,Unknown
-PedNYC17,15,Yes,Speeding up then Slowing down then Speeding up then Slowing down then Speeding up then Slowing down,Not walking,Pedestrian,Pedestrian,Yes
-PedNYC17,16,Yes,Not moving,Not walking,Neither,Neither,Yes
-PedNYC17,21,Yes,Speeding up then Slowing down then Speeding up then Slowing down then Speeding up then Slowing down then Speeding up then Slowing down then Speeding up then Slowing down then Speeding up then Slowing down then Speeding up then Slowing down then Speeding up then Slowing down then Speeding up then Slowing down,Not walking,Pedestrian,Pedestrian,Yes
-PedNYC17,101,No,Speeding up then Slowing down then Speeding up then Slowing down then Speeding up then Slowing down then Speeding up then Slowing down then Speeding up then Slowing down then Speeding up then Slowing down then Speeding up then Slowing down then Speeding up then Slowing down,Speeding up then Slowing down,Pedestrian,Pedestrian,Yes
-PedNYC17,102,Yes,Speeding up then Slowing down then Speeding up then Slowing down then Speeding up then Slowing down then Speeding up then Slowing down then Speeding up then Slowing down then Speeding up,Speeding up then Slowing down then Speeding up then Slowing down,Pedestrian,Pedestrian,Yes
-PedNYC17,103,Yes,Speeding up then Slowing down then Speeding up then Slowing down then Speeding up then Slowing down then Speeding up then Slowing down then Speeding up then Slowing down then Speeding up then Slowing down,Not walking,Pedestrian,Pedestrian,Yes
-PedNYC17,104,Yes,Speeding up then Slowing down then Speeding up then Slowing down then Speeding up then Slowing down then Speeding up then Slowing down then Speeding up then Slowing down then Speeding up then Slowing down,Not walking,Pedestrian,Pedestrian,Yes
-PedNYC17,105,Yes,Not moving,Not walking,Pedestrian,Both,Yes
-PedNYC17,106,Yes,Speeding up then Slowing down then Speeding up then Slowing down then Speeding up then Slowing down then Speeding up then Slowing down then Speeding up then Slowing down then Speeding up then Slowing down,Not walking,Pedestrian,Pedestrian,Yes
-PedNYC18,7,No,Speeding up then Slowing down then Speeding up then Slowing down then Speeding up then Slowing down then Speeding up then Slowing down,Not walking,Pedestrian,Pedestrian,Yes
-PedNYC18,12,Yes,Speeding up then Slowing down then Speeding up then Slowing down then Speeding up then Slowing down then Speeding up then Slowing down,Speeding up then Slowing down,Neither,Neither,Yes
-PedNYC18,21,Yes,Not moving,Not walking,Pedestrian,Pedestrian,Yes
-PedNYC18,101,Yes,Speeding up then Slowing down then Speeding up then Slowing down then Speeding up then Slowing down then Speeding up then Slowing down then Speeding up then Slowing down then Speeding up then Slowing down then Speeding up then Slowing down,Not walking,Pedestrian,Pedestrian,Yes
-PedNYC18,102,Yes,Not moving,Not walking,Pedestrian,Pedestrian,Yes
-PedNYC18,103,Yes,Speeding up then Slowing down then Speeding up then Slowing down then Speeding up then Slowing down then Speeding up then Slowing down,Not walking,Pedestrian,Pedestrian,Yes
-PedNYC18,106,Yes,Speeding up then Slowing down then Speeding up then Slowing down,Not walking,Driver,Driver,Yes
-PedNYC19,3,Yes,Not moving,Not walking,Driver,Driver,Yes
-PedNYC19,7,No,Not moving,Not walking,Driver,Driver,Yes
-PedNYC19,12,Yes,Speeding up then Slowing down then Speeding up then Slowing down then Speeding up then Slowing down,Not walking,Neither,Neither,Yes
-PedNYC19,15,Yes,Speeding up then Slowing down then Speeding up then Slowing down then Speeding up then Slowing down then Speeding up then Slowing down then Speeding up then Slowing down,Not walking,Unknown,Unknown,Yes
-PedNYC19,16,Yes,Speeding up then Slowing down then Speeding up then Slowing down then Speeding up then Slowing down then Speeding up then Slowing down,Not walking,Neither,Neither,Yes
-PedNYC19,21,Yes,Speeding up then Slowing down then Speeding up then Slowing down then Speeding up then Slowing down then Speeding up then Slowing down then Speeding up then Slowing down,Speeding up then Slowing down,Driver,Driver,Yes
-PedNYC19,101,Yes,Speeding up then Slowing down then Speeding up then Slowing down then Speeding up then Slowing down then Speeding up then Slowing down then Speeding up then Slowing down,No change,Driver,Driver,Yes
-PedNYC19,102,Yes,Speeding up then Slowing down then Speeding up then Slowing down then Speeding up then Slowing down then Speeding up then Slowing down then Speeding up then Slowing down,Slowing down then Speeding up then Slowing down,Pedestrian,Pedestrian,Yes
-PedNYC19,103,Yes,Speeding up then Slowing down then Speeding up then Slowing down then Speeding up then Slowing down then Speeding up then Slowing down then Speeding up then Slowing down then Speeding up then Slowing down,Speeding up then Slowing down,Pedestrian,Pedestrian,Yes
-PedNYC19,104,Yes,Speeding up then Slowing down then Speeding up then Slowing down then Speeding up then Slowing down then Speeding up then Slowing down then Speeding up then Slowing down then Speeding up then Slowing down then Speeding up then Slowing down,Not walking,Pedestrian,Pedestrian,Yes
-PedNYC19,105,Yes,Speeding up then Slowing down then Speeding up then Slowing down then Speeding up then Slowing down,No change,Pedestrian,Both,Yes
-PedNYC19,106,Yes,Speeding up then Slowing down then Speeding up then Slowing down,Not walking,Pedestrian,Pedestrian,Yes
-PedNYC20,12,Yes,Speeding up then Slowing down then Speeding up then Slowing down,Not walking,Neither,Neither,Yes
-PedNYC20,15,Yes,Not moving,Not walking,Pedestrian,Pedestrian,Yes
-PedNYC20,16,Yes,Speeding up then Slowing down,Not walking,Neither,Neither,Yes
-PedNYC20,21,Yes,Speeding up then Slowing down then Speeding up then Slowing down then Speeding up then Slowing down,Speeding up then Slowing down,Unknown,Unknown,Yes
-PedNYC20,102,Yes,Speeding up then Slowing down then Speeding up then Slowing down then Speeding up then Slowing down then Speeding up then Slowing down,Not walking,Driver,Driver,Yes
-PedNYC20,104,Yes,Not moving,Speeding up then Slowing down then Speeding up then Slowing down then Speeding up then Slowing down then Speeding up then Slowing down,Pedestrian,Both,Yes
-PedNYC20,105,Yes,Speeding up then Slowing down then Speeding up then Slowing down,Not walking,Pedestrian,Pedestrian,Yes
-PedNYC20,106,Yes,Speeding up then Slowing down then Speeding up then Slowing down then Speeding up then Slowing down,Not walking,Pedestrian,Pedestrian,Yes
-PedNYC21,3,Yes,Not moving,Not walking,Pedestrian,Pedestrian,Yes
-PedNYC21,7,No,Speeding up then Slowing down then Speeding up then Slowing down then Speeding up then Slowing down then Speeding up then Slowing down then Speeding up then Slowing down,Not walking,Pedestrian,Pedestrian,Yes
-PedNYC21,12,Yes,Not moving,Not walking,Neither,Neither,Yes
-PedNYC21,21,Yes,Speeding up then Slowing down then Speeding up then Slowing down then Speeding up then Slowing down then Speeding up then Slowing down then Speeding up then Slowing down then Speeding up then Slowing down then Speeding up then Slowing down,Not walking,Pedestrian,Pedestrian,Yes
-PedNYC21,102,Yes,Speeding up then Slowing down then Speeding up then Slowing down then Speeding up then Slowing down then Speeding up then Slowing down then Speeding up then Slowing down then Speeding up then Slowing down,Not walking,Driver,Driver,Yes
-PedNYC21,103,Yes,Speeding up then Slowing down then Speeding up then Slowing down then Speeding up then Slowing down then Speeding up then Slowing down then Speeding up then Slowing down,Not walking,Pedestrian,Pedestrian,Yes
-PedNYC21,104,Yes,Not moving,Not walking,Pedestrian,Pedestrian,Yes
-PedNYC21,106,No,Speeding up then Slowing down then Speeding up then Slowing down then Speeding up then Slowing down then Speeding up then Slowing down then Speeding up then Slowing down then Speeding up then Slowing down,Not walking,Pedestrian,Pedestrian,Yes
-PedNYC22,3,Yes,Speeding up then Slowing down then Speeding up then Slowing down then Speeding up then Slowing down,Not walking,Pedestrian,Pedestrian,Yes
-PedNYC22,7,No,Not moving,Not walking,Pedestrian,Pedestrian,Yes
-PedNYC22,12,Yes,Speeding up then Slowing down then Speeding up then Slowing down then Speeding up then Slowing down,Not walking,Neither,Neither,Yes
-PedNYC22,15,Yes,Speeding up then Slowing down then Speeding up then Slowing down,Not walking,Unknown,Unknown,Yes
-PedNYC22,16,Yes,Speeding up then Slowing down then Speeding up then Slowing down,Not walking,Neither,Neither,Yes
-PedNYC22,21,Yes,Not moving,Not walking,Driver,Driver,Yes
-PedNYC22,101,Yes,Speeding up then Slowing down then Speeding up then Slowing down then Speeding up then Slowing down then Speeding up then Slowing down,Not walking,Pedestrian,Pedestrian,Yes
-PedNYC22,102,Yes,Speeding up then Slowing down then Speeding up then Slowing down then Speeding up then Slowing down,Slowing down,Pedestrian,Pedestrian,No
-PedNYC22,103,Yes,Speeding up then Slowing down then Speeding up then Slowing down then Speeding up then Slowing down,Not walking,Pedestrian,Pedestrian,Yes
-PedNYC22,104,Yes,Speeding up then Slowing down then Speeding up then Slowing down then Speeding up then Slowing down then Speeding up then Slowing down,Not walking,Pedestrian,Pedestrian,Yes
-PedNYC22,105,Yes,Speeding up then Slowing down then Speeding up then Slowing down then Speeding up then Slowing down,Slowing down,Pedestrian,Both,Yes
-PedNYC22,106,Yes,Speeding up then Slowing down then Speeding up then Slowing down then Speeding up then Slowing down then Speeding up then Slowing down,Not walking,Pedestrian,Pedestrian,Yes
-PedNYC23,3,Yes,Not moving,Not walking,Driver,Driver,Yes
-PedNYC23,7,No,Speeding up then Slowing down then Speeding up then Slowing down then Speeding up then Slowing down then Speeding up then Slowing down then Speeding up then Slowing down,Not walking,Driver,Driver,Yes
-PedNYC23,12,Yes,Not moving,Slowing down,Neither,Neither,Yes
-PedNYC23,15,Yes,Speeding up then Slowing down then Speeding up then Slowing down,Speeding up then Slowing down,Driver,Driver,Yes
-PedNYC23,16,Yes,Not moving,Not walking,Neither,Neither,Yes
-PedNYC23,21,Yes,Speeding up then Slowing down then Speeding up then Slowing down then Speeding up then Slowing down then Speeding up then Slowing down then Speeding up then Slowing down,Not walking,Pedestrian,Pedestrian,Yes
-PedNYC23,101,Yes,Not moving,Not walking,Pedestrian,Pedestrian,Yes
-PedNYC23,102,Yes,Speeding up then Slowing down then Speeding up then Slowing down then Speeding up then Slowing down then Speeding up then Slowing down then Speeding up then Slowing down then Speeding up then Slowing down,Not walking,Pedestrian,Pedestrian,Yes
-PedNYC23,103,Yes,Not moving,Not walking,Pedestrian,Pedestrian,Yes
-PedNYC23,104,Yes,Not moving,Not walking,Pedestrian,Both,Yes
-PedNYC23,105,Unknown,Unknown,Unknown,Unknown,Unknown,Unknown
-PedNYC23,106,Yes,Speeding up then Slowing down then Speeding up then Slowing down then Speeding up then Slowing down then Speeding up,Not walking,Driver,Driver,Yes
-PedNYC24,3,Yes,Not moving,Not walking,Pedestrian,Pedestrian,Yes
-PedNYC24,7,Unknown,Unknown,Unknown,Unknown,Unknown,Unknown
-PedNYC24,12,Yes,Speeding up then Slowing down then Speeding up then Slowing down then Speeding up then Slowing down then Speeding up then Slowing down then Speeding up then Slowing down,Not walking,Neither,Neither,Yes
-PedNYC24,15,Yes,Not moving,Not walking,Pedestrian,Pedestrian,Yes
-PedNYC24,16,Yes,Speeding up then Slowing down then Speeding up then Slowing down,Not walking,Neither,Neither,Yes
-PedNYC24,21,Yes,Speeding up then Slowing down then Speeding up then Slowing down then Speeding up then Slowing down then Speeding up then Slowing down,Not walking,Driver,Driver,Yes
-PedNYC24,101,Yes,Speeding up then Slowing down then Speeding up then Slowing down then Speeding up then Slowing down then Speeding up then Slowing down,Slowing down,Driver,Driver,Yes
-PedNYC24,102,Yes,Speeding up then Slowing down then Speeding up then Slowing down then Speeding up then Slowing down then Speeding up then Slowing down then Speeding up then Slowing down,Not walking,Driver,Driver,Yes
-PedNYC24,103,Yes,Speeding up then Slowing down then Speeding up then Slowing down then Speeding up then Slowing down then Speeding up then Slowing down,Not walking,Driver,Driver,Yes
-PedNYC24,104,Yes,Speeding up then Slowing down then Speeding up then Slowing down then Speeding up then Slowing down then Speeding up then Slowing down,Speeding up then Slowing down,Pedestrian,Pedestrian,Yes
-PedNYC24,105,Yes,Speeding up then Slowing down then Speeding up then Slowing down then Speeding up then Slowing down then Speeding up then Slowing down then Speeding up then Slowing down,Not walking,Pedestrian,Both,Yes
-PedNYC24,106,Yes,Speeding up then Slowing down then Speeding up then Slowing down then Speeding up then Slowing down then Speeding up then Slowing down,Speeding up then Slowing down,Pedestrian,Pedestrian,Yes
-PedNYC25,3,Yes,Speeding up then Slowing down then Speeding up then Slowing down then Speeding up then Slowing down then Speeding up then Slowing down,Not walking,Pedestrian,Pedestrian,Yes
-PedNYC25,7,No,Speeding up then Slowing down then Speeding up then Slowing down then Speeding up then Slowing down then Speeding up then Slowing down,Not walking,Pedestrian,Pedestrian,Yes
-PedNYC25,15,Yes,Speeding up then Slowing down then Speeding up then Slowing down then Speeding up then Slowing down then Speeding up then Slowing down then Speeding up then Slowing down then Speeding up then Slowing down,Not walking,Pedestrian,Pedestrian,Yes
-PedNYC25,16,Yes,Speeding up then Slowing down then Speeding up then Slowing down,Not walking,Neither,Neither,Yes
-PedNYC25,21,Yes,Not moving,Not walking,Pedestrian,Pedestrian,Yes
-PedNYC25,101,Yes,Speeding up then Slowing down then Speeding up then Slowing down,No change,Unknown,Unknown,Unknown
-PedNYC25,102,Yes,Speeding up then Slowing down then Speeding up then Slowing down then Speeding up then Slowing down then Speeding up then Slowing down then Speeding up then Slowing down,Speeding up then Slowing down,Driver,Driver,Yes
-PedNYC25,103,Yes,Not moving,Not walking,Driver,Driver,Yes
-PedNYC25,104,Yes,Not moving,Not walking,Pedestrian,Pedestrian,Yes
-PedNYC25,105,Yes,Not moving,Not walking,Pedestrian,Pedestrian,Yes
-PedNYC25,106,No,Speeding up then Slowing down then Speeding up then Slowing down then Speeding up then Slowing down,Not walking,Pedestrian,Pedestrian,Yes
-PedNYC26,3,No,Speeding up then Slowing down then Speeding up then Slowing down,Slowing down,Driver,Driver,Yes
-PedNYC26,7,No,Not moving,Slowing down,Pedestrian,Pedestrian,Yes
-PedNYC26,12,Yes,Not moving,Speeding up,Neither,Neither,Yes
-PedNYC26,15,Yes,Speeding up then Slowing down then Speeding up then Slowing down,Not walking,Pedestrian,Pedestrian,Yes
-PedNYC26,16,Yes,Speeding up then Slowing down then Speeding up then Slowing down,Not walking,Neither,Neither,Yes
-PedNYC26,21,Yes,Not moving,Not walking,Driver,Driver,Yes
-PedNYC26,101,Yes,Speeding up then Slowing down then Speeding up then Slowing down then Speeding up then Slowing down,Not walking,Driver,Driver,Yes
-PedNYC26,102,Yes,Not moving,Not walking,Pedestrian,Pedestrian,Yes
-PedNYC26,103,Yes,Speeding up then Slowing down then Speeding up then Slowing down,Slowing down,Driver,Driver,Yes
-PedNYC26,104,Yes,Not moving,Slowing down then Speeding up then Slowing down,Pedestrian,Both,Yes
-PedNYC26,105,Yes,Not moving,Slowing down then Speeding up then Slowing down,Pedestrian,Both,Yes
-PedNYC26,106,Yes,Speeding up then Slowing down,Not walking,Pedestrian,Pedestrian,Yes
-PedNYC27,21,Yes,Speeding up then Slowing down then Speeding up then Slowing down then Speeding up then Slowing down then Speeding up then Slowing down then Speeding up then Slowing down then Speeding up then Slowing down then Speeding up then Slowing down then Speeding up then Slowing down then Speeding up then Slowing down,Not walking,Pedestrian,Pedestrian,Yes
-PedNYC27,104,Yes,Not moving,Not walking,Pedestrian,Pedestrian,Yes
-PedNYC27,106,Yes,Speeding up then Slowing down then Speeding up then Slowing down then Speeding up then Slowing down then Speeding up then Slowing down,Not walking,Pedestrian,Pedestrian,Yes
-PedNYC28,3,Yes,Speeding up then Slowing down then Speeding up then Slowing down then Speeding up then Slowing down,Not walking,Pedestrian,Pedestrian,Yes
-PedNYC28,7,No,Not moving,Not walking,Pedestrian,Pedestrian,Yes
-PedNYC28,12,Yes,Not moving,Not walking,Neither,Neither,Yes
-PedNYC28,15,Yes,Speeding up then Slowing down then Speeding up then Slowing down then Speeding up then Slowing down,Not walking,Pedestrian,Pedestrian,Yes
-PedNYC28,16,Yes,Speeding up then Slowing down then Speeding up then Slowing down,Not walking,Neither,Neither,Yes
-PedNYC28,21,Yes,Speeding up then Slowing down then Speeding up then Slowing down then Speeding up then Slowing down then Speeding up then Slowing down,Not walking,Pedestrian,Pedestrian,Yes
-PedNYC28,101,Yes,Speeding up then Slowing down then Speeding up then Slowing down then Speeding up then Slowing down then Speeding up then Slowing down,Not walking,Pedestrian,Pedestrian,Yes
-PedNYC28,102,Yes,Not moving,Not walking,Pedestrian,Pedestrian,Yes
-PedNYC28,103,Unknown,Unknown,Unknown,Unknown,Unknown,Unknown
-PedNYC28,104,Yes,Speeding up then Slowing down then Speeding up then Slowing down then Speeding up then Slowing down,Not walking,Pedestrian,Both,Yes
-PedNYC28,105,Yes,Speeding up then Slowing down then Speeding up then Slowing down then Speeding up then Slowing down,Not walking,Pedestrian,Pedestrian,Yes
-PedNYC28,106,Yes,Speeding up then Slowing down,Not walking,Pedestrian,Pedestrian,Yes
-PedNYC29,3,Yes,Not moving,Slowing down then Speeding up then Slowing down,Pedestrian,Pedestrian,Yes
-PedNYC29,7,No,Speeding up then Slowing down then Speeding up then Slowing down then Speeding up then Slowing down then Speeding up then Slowing down,Not walking,Pedestrian,Pedestrian,Yes
-PedNYC29,12,Yes,Not moving,Slowing down then Speeding up,Neither,Neither,Yes
-PedNYC29,15,Yes,Not moving,Speeding up then Slowing down then Speeding up then Slowing down then Speeding up,Pedestrian,Both,Yes
-PedNYC29,16,Yes,Speeding up then Slowing down,Speeding up then Slowing down then Speeding up then Slowing down,Neither,Neither,Yes
-PedNYC29,21,Yes,Not moving,Slowing down,Pedestrian,Pedestrian,Yes
-PedNYC29,101,Yes,Speeding up then Slowing down then Speeding up then Slowing down then Speeding up then Slowing down then Speeding up then Slowing down then Speeding up then Slowing down then Speeding up then Slowing down,Speeding up then Slowing down,Pedestrian,Both,Yes
-PedNYC29,102,Yes,Not moving,Speeding up then Slowing down then Speeding up then Slowing down then Speeding up,Pedestrian,Both,Yes
-PedNYC29,103,Yes,Not moving,Slowing down then Speeding up then Slowing down then Speeding up,Pedestrian,Both,Yes
-PedNYC29,104,Yes,Not moving,Slowing down then Speeding up then Slowing down then Speeding up then Slowing down then Speeding up then Slowing down,Pedestrian,Pedestrian,Yes
-PedNYC29,105,Yes,Speeding up then Slowing down then Speeding up then Slowing down then Speeding up then Slowing down,Not walking,Pedestrian,Both,Yes
-PedNYC29,106,Yes,Speeding up then Slowing down then Speeding up then Slowing down then Speeding up then Slowing down then Speeding up then Slowing down,Slowing down then Speeding up then Slowing down,Pedestrian,Both,Yes
-PedNYC30,3,Yes,Not moving,Not walking,Pedestrian,Pedestrian,Yes
-PedNYC30,12,Yes,Not moving,Slowing down,Neither,Neither,Yes
-PedNYC30,15,Yes,Not moving,Not walking,Pedestrian,Pedestrian,Yes
-PedNYC30,16,Yes,Speeding up then Slowing down then Speeding up then Slowing down,Not walking,Neither,Neither,Yes
-PedNYC30,21,Yes,Not moving,Not walking,Pedestrian,Pedestrian,Yes
-PedNYC30,101,Yes,Not moving,Slowing down then Speeding up then Slowing down,Pedestrian,Pedestrian,Yes
-PedNYC30,102,Yes,Not moving,Slowing down,Pedestrian,Pedestrian,Yes
-PedNYC30,103,Yes,Speeding up then Slowing down then Speeding up then Slowing down then Speeding up then Slowing down then Speeding up then Slowing down then Speeding up then Slowing down,Not walking,Pedestrian,Pedestrian,Yes
-PedNYC30,105,Yes,Not moving,Not walking,Pedestrian,Pedestrian,Yes
-PedNYC30,106,Yes,Speeding up then Slowing down then Speeding up then Slowing down then Speeding up then Slowing down,Not walking,Pedestrian,Pedestrian,Yes
-PedNYC31,3,Yes,Speeding up then Slowing down then Speeding up then Slowing down then Speeding up then Slowing down then Speeding up then Slowing down,Not walking,Pedestrian,Pedestrian,Yes
-PedNYC31,12,Yes,Not moving,Not walking,Neither,Neither,Yes
-PedNYC31,15,Yes,Speeding up then Slowing down then Speeding up then Slowing down then Speeding up then Slowing down,Slowing down then Speeding up,Driver,Driver,Yes
-PedNYC31,101,Yes,Speeding up then Slowing down then Speeding up then Slowing down,Slowing down,Pedestrian,Pedestrian,Yes
-PedNYC32,3,No,Not moving,Slowing down then Speeding up then Slowing down,Pedestrian,Pedestrian,Yes
-PedNYC32,7,No,Not moving,Speeding up,Pedestrian,Pedestrian,Yes
-PedNYC32,15,No,Not moving,Not walking,Pedestrian,Pedestrian,Yes
-PedNYC32,16,No,Speeding up then Slowing down then Speeding up then Slowing down then Speeding up then Slowing down,Speeding up then Slowing down then Speeding up then Slowing down,Neither,Neither,Yes
-PedNYC32,21,No,Speeding up then Slowing down then Speeding up then Slowing down then Speeding up then Slowing down then Speeding up then Slowing down,Speeding up then Slowing down then Speeding up then Slowing down,Unknown,Unknown,Yes
-PedNYC32,101,Unknown,Unknown,Unknown,Unknown,Unknown,Unknown
-PedNYC32,102,No,Speeding up then Slowing down then Speeding up then Slowing down then Speeding up then Slowing down then Speeding up then Slowing down,Slowing down then Speeding up,Pedestrian,Pedestrian,Yes
-PedNYC32,103,No,Not moving,Slowing down then Speeding up then Slowing down then Speeding up then Slowing down then Speeding up then Slowing down,Pedestrian,Both,Yes
-PedNYC32,104,No,Speeding up then Slowing down then Speeding up then Slowing down then Speeding up then Slowing down,Slowing down then Speeding up then Slowing down then Speeding up then Slowing down,Pedestrian,Pedestrian,Yes
-PedNYC32,106,No,Speeding up then Slowing down,Not walking,Pedestrian,Both,Yes
+﻿StudyFolder,ScenarioName,Did the driver signal,Who has the right of way?（Who reached the intersection first?）,Who went first？,Did the pedestrian use hand gestures?
+PedNYC1,3,Yes,Pedestrian,Pedestrian,Yes
+PedNYC1,7,No,Pedestrian,Pedestrian,Yes
+PedNYC1,12,Yes,Neither,Neither,Yes
+PedNYC1,15,Yes,Pedestrian,Pedestrian,Yes
+PedNYC1,16,Yes,Neither,Neither,Yes
+PedNYC1,21,Yes,Pedestrian,Pedestrian,Yes
+PedNYC1,101,Yes,Pedestrian,Pedestrian,Yes
+PedNYC1,102,Yes,Pedestrian,Pedestrian,Yes
+PedNYC1,103,Yes,Pedestrian,Pedestrian,Yes
+PedNYC1,104,Yes,Pedestrian,Pedestrian,Yes
+PedNYC1,105,Yes,Pedestrian,Both,Yes
+PedNYC1,106,Yes,Pedestrian,Pedestrian,Yes
+PedNYC2,3,No,Driver,Driver,Yes
+PedNYC2,7,No,Pedestrian,Pedestrian,Yes
+PedNYC2,12,Yes,Neither,Neither,Yes
+PedNYC2,15,Yes,Unknown,Unknown,Yes
+PedNYC2,16,Yes,Neither,Neither,Yes
+PedNYC2,21,Yes,Unknown,Unknown,Yes
+PedNYC2,101,Yes,Pedestrian,Pedestrian,Yes
+PedNYC2,102,Yes,Pedestrian,Pedestrian,Yes
+PedNYC2,103,Yes,Pedestrian,Pedestrian,Yes
+PedNYC2,104,Yes,Pedestrian,Pedestrian,Yes
+PedNYC2,105,Yes,Pedestrian,Pedestrian,Yes
+PedNYC2,106,No,Pedestrian,Pedestrian,Yes
+PedNYC3,3,Yes,Driver,Driver,Yes
+PedNYC3,7,No,Driver,Driver,Yes
+PedNYC3,12,Yes,Neither,Neither,Yes
+PedNYC3,15,Yes,Driver,Driver,Yes
+PedNYC3,16,Yes,Neither,Neither,Yes
+PedNYC3,21,Yes,Pedestrian,Pedestrian,Yes
+PedNYC3,101,Yes,Driver,Driver,Yes
+PedNYC3,102,Yes,Pedestrian,Pedestrian,Yes
+PedNYC3,103,Yes,Pedestrian,Pedestrian,Yes
+PedNYC3,104,Yes,Pedestrian,Pedestrian,Yes
+PedNYC3,105,Yes,Pedestrian,Both,Yes
+PedNYC3,106,Yes,Pedestrian,Pedestrian,Yes
+PedNYC4,3,Yes,Pedestrian,Pedestrian,Yes
+PedNYC4,7,No,Driver,Driver,Yes
+PedNYC4,12,Yes,Neither,Neither,Yes
+PedNYC4,15,Yes,Driver,Driver,Yes
+PedNYC4,16,Yes,Neither,Neither,Yes
+PedNYC4,21,Yes,Pedestrian,Pedestrian,Yes
+PedNYC4,101,No,Pedestrian,Pedestrian,Yes
+PedNYC4,102,Yes,Pedestrian,Pedestrian,Yes
+PedNYC4,103,No,Driver,Driver,Yes
+PedNYC4,104,Yes,Pedestrian,Pedestrian,Yes
+PedNYC4,105,Yes,Pedestrian,Pedestrian,Yes
+PedNYC4,106,Yes,Pedestrian,Pedestrian,Yes
+PedNYC5,3,Yes,Driver,Driver,Yes
+PedNYC5,7,No,Driver,Driver,Yes
+PedNYC5,12,Yes,Neither,Neither,Yes
+PedNYC5,15,Yes,Pedestrian,Pedestrian,Yes
+PedNYC5,16,Yes,Neither,Neither,Yes
+PedNYC5,21,Yes,Pedestrian,Pedestrian,Yes
+PedNYC5,101,Yes,Pedestrian,Pedestrian,Yes
+PedNYC5,102,Yes,Driver,Driver,Yes
+PedNYC5,103,Yes,Driver,Driver,Yes
+PedNYC5,104,Yes,Pedestrian,Both,Yes
+PedNYC5,105,Unknown,Unknown,Unknown,Unknown
+PedNYC5,106,No,Pedestrian,Pedestrian,Yes
+PedNYC6,7,No,Driver,Driver,Yes
+PedNYC6,15,No,Unknown,Unknown,Yes
+PedNYC6,21,Yes,Pedestrian,Pedestrian,Yes
+PedNYC6,101,Yes,Driver,Driver,Yes
+PedNYC6,102,Yes,Pedestrian,Pedestrian,Yes
+PedNYC6,103,No,Driver,Driver,Yes
+PedNYC6,104,Yes,Pedestrian,Pedestrian,Yes
+PedNYC6,106,No,Unknown,Unknown,Yes
+PedNYC7,3,Yes,Driver,Driver,Yes
+PedNYC7,7,No,Pedestrian,Pedestrian,Yes
+PedNYC7,12,No,Neither,Neither,Yes
+PedNYC7,15,Yes,Driver,Driver,Yes
+PedNYC7,16,Yes,Neither,Neither,Yes
+PedNYC7,21,Yes,Pedestrian,Pedestrian,Yes
+PedNYC7,101,Yes,Unknown,Unknown,Yes
+PedNYC7,102,Yes,Driver,Driver,Yes
+PedNYC7,103,Yes,Pedestrian,Pedestrian,Yes
+PedNYC7,104,Yes,Pedestrian,Pedestrian,Yes
+PedNYC7,105,No,Pedestrian,Both,Yes
+PedNYC7,106,Yes,Pedestrian,Pedestrian,Yes
+PedNYC8,3,Yes,Pedestrian,Pedestrian,Yes
+PedNYC8,7,No,Driver,Driver,Yes
+PedNYC8,12,Yes,Neither,Neither,Yes
+PedNYC8,15,Yes,Pedestrian,Pedestrian,Yes
+PedNYC8,16,Yes,Neither,Neither,Yes
+PedNYC8,21,Unknown,Unknown,Unknown,Unknown
+PedNYC8,101,Yes,Pedestrian,Pedestrian,Yes
+PedNYC8,102,Yes,Pedestrian,Pedestrian,Yes
+PedNYC8,103,Yes,Pedestrian,Pedestrian,Yes
+PedNYC8,104,Yes,Pedestrian,Both,Yes
+PedNYC8,105,Yes,Pedestrian,Both,Yes
+PedNYC8,106,Yes,Pedestrian,Pedestrian,Yes
+PedNYC9,3,Yes,Pedestrian,Pedestrian,Yes
+PedNYC9,7,No,Pedestrian,Pedestrian,Yes
+PedNYC9,12,No,Neither,Neither,Yes
+PedNYC9,15,No,Unknown,Unknown,Yes
+PedNYC9,16,No,Neither,Neither,Yes
+PedNYC9,21,No,Driver,Driver,Yes
+PedNYC9,101,No,Driver,Driver,Yes
+PedNYC9,102,Yes,Pedestrian,Pedestrian,Yes
+PedNYC9,103,No,Pedestrian,Pedestrian,Yes
+PedNYC9,104,No,Pedestrian,Pedestrian,Yes
+PedNYC9,105,No,Pedestrian,Both,Yes
+PedNYC9,106,Yes,Pedestrian,Pedestrian,Yes
+PedNYC10,3,Yes,Pedestrian,Pedestrian,Yes
+PedNYC10,7,No,Pedestrian,Pedestrian,Yes
+PedNYC10,12,Unknown,Unknown,Unknown,Unknown
+PedNYC10,16,Yes,Neither,Neither,Yes
+PedNYC10,21,Unknown,Unknown,Unknown,Unknown
+PedNYC10,101,Yes,Driver,Driver,Yes
+PedNYC10,102,Yes,Pedestrian,Pedestrian,Yes
+PedNYC10,104,Yes,Pedestrian,Both,Yes
+PedNYC10,105,Yes,Pedestrian,Both,Yes
+PedNYC11,3,Yes,Driver,Driver,Yes
+PedNYC11,7,No,Driver,Driver,Yes
+PedNYC11,12,Yes,Neither,Neither,Yes
+PedNYC11,15,Yes,Pedestrian,Pedestrian,Yes
+PedNYC11,16,Yes,Neither,Neither,Yes
+PedNYC11,21,Yes,Pedestrian,Pedestrian,Yes
+PedNYC11,101,Yes,Pedestrian,Pedestrian,Yes
+PedNYC11,102,Yes,Pedestrian,Pedestrian,Yes
+PedNYC11,103,Yes,Pedestrian,Pedestrian,Yes
+PedNYC11,104,Yes,Pedestrian,Both,Yes
+PedNYC11,105,Yes,Pedestrian,Both,Yes
+PedNYC11,106,No,Driver,Driver,Yes
+PedNYC12,3,Yes,Driver,Driver,Yes
+PedNYC12,7,No,Driver,Driver,Yes
+PedNYC12,12,Yes,Neither,Neither,Yes
+PedNYC12,15,Yes,Driver,Driver,Yes
+PedNYC12,16,Yes,Neither,Neither,Yes
+PedNYC12,21,Yes,Pedestrian,Pedestrian,Yes
+PedNYC12,101,Yes,Driver,Driver,Yes
+PedNYC12,102,Yes,Driver,Driver,Yes
+PedNYC12,103,Yes,Driver,Driver,Yes
+PedNYC12,104,Yes,Pedestrian,Both,Yes
+PedNYC12,105,Yes,Pedestrian,Both,Yes
+PedNYC12,106,Yes,Pedestrian,Pedestrian,Yes
+PedNYC13,3,Yes,Pedestrian,Pedestrian,Yes
+PedNYC13,7,No,Pedestrian,Pedestrian,Yes
+PedNYC13,12,Yes,Neither,Neither,Yes
+PedNYC13,15,Yes,Unknown,Unknown,Yes
+PedNYC13,16,Yes,Neither,Neither,Yes
+PedNYC13,21,Yes,Pedestrian,Pedestrian,Yes
+PedNYC13,101,Yes,Pedestrian,Pedestrian,Yes
+PedNYC13,102,Yes,Driver,Driver,Yes
+PedNYC13,103,Yes,Driver,Driver,Yes
+PedNYC13,104,Yes,Pedestrian,Pedestrian,Yes
+PedNYC13,105,Yes,Pedestrian,Pedestrian,Yes
+PedNYC13,106,No,Pedestrian,Pedestrian,Yes
+PedNYC15,3,Yes,Pedestrian,Pedestrian,Yes
+PedNYC15,12,Yes,Neither,Neither,Yes
+PedNYC15,15,Yes,Pedestrian,Pedestrian,Yes
+PedNYC15,16,Yes,Neither,Neither,Yes
+PedNYC15,102,Yes,Pedestrian,Pedestrian,Yes
+PedNYC15,103,Yes,Pedestrian,Pedestrian,Yes
+PedNYC15,106,Yes,Pedestrian,Pedestrian,Yes
+PedNYC16,3,Yes,Driver,Driver,Yes
+PedNYC16,7,Unknown,Unknown,Unknown,Unknown
+PedNYC16,12,Yes,Neither,Neither,Yes
+PedNYC16,15,Yes,Unknown,Unknown,Yes
+PedNYC16,16,Yes,Neither,Neither,No
+PedNYC16,21,Yes,Pedestrian,Pedestrian,Yes
+PedNYC16,101,Yes,Pedestrian,Pedestrian,Yes
+PedNYC16,102,Yes,Pedestrian,Pedestrian,Yes
+PedNYC16,103,Yes,Driver,Driver,No
+PedNYC16,104,Yes,Pedestrian,Both,Yes
+PedNYC16,105,Yes,Pedestrian,Both,Yes
+PedNYC16,106,Yes,Pedestrian,Pedestrian,Yes
+PedNYC17,3,Yes,Pedestrian,Pedestrian,Yes
+PedNYC17,7,No,Pedestrian,Pedestrian,Yes
+PedNYC17,12,Unknown,Unknown,Unknown,Unknown
+PedNYC17,15,Yes,Pedestrian,Pedestrian,Yes
+PedNYC17,16,Yes,Neither,Neither,Yes
+PedNYC17,21,Yes,Pedestrian,Pedestrian,Yes
+PedNYC17,101,No,Pedestrian,Pedestrian,Yes
+PedNYC17,102,Yes,Pedestrian,Pedestrian,Yes
+PedNYC17,103,Yes,Pedestrian,Pedestrian,Yes
+PedNYC17,104,Yes,Pedestrian,Pedestrian,Yes
+PedNYC17,105,Yes,Pedestrian,Both,Yes
+PedNYC17,106,Yes,Pedestrian,Pedestrian,Yes
+PedNYC18,7,No,Pedestrian,Pedestrian,Yes
+PedNYC18,12,Yes,Neither,Neither,Yes
+PedNYC18,21,Yes,Pedestrian,Pedestrian,Yes
+PedNYC18,101,Yes,Pedestrian,Pedestrian,Yes
+PedNYC18,102,Yes,Pedestrian,Pedestrian,Yes
+PedNYC18,103,Yes,Pedestrian,Pedestrian,Yes
+PedNYC18,106,Yes,Driver,Driver,Yes
+PedNYC19,3,Yes,Driver,Driver,Yes
+PedNYC19,7,No,Driver,Driver,Yes
+PedNYC19,12,Yes,Neither,Neither,Yes
+PedNYC19,15,Yes,Unknown,Unknown,Yes
+PedNYC19,16,Yes,Neither,Neither,Yes
+PedNYC19,21,Yes,Driver,Driver,Yes
+PedNYC19,101,Yes,Driver,Driver,Yes
+PedNYC19,102,Yes,Pedestrian,Pedestrian,Yes
+PedNYC19,103,Yes,Pedestrian,Pedestrian,Yes
+PedNYC19,104,Yes,Pedestrian,Pedestrian,Yes
+PedNYC19,105,Yes,Pedestrian,Both,Yes
+PedNYC19,106,Yes,Pedestrian,Pedestrian,Yes
+PedNYC20,12,Yes,Neither,Neither,Yes
+PedNYC20,15,Yes,Pedestrian,Pedestrian,Yes
+PedNYC20,16,Yes,Neither,Neither,Yes
+PedNYC20,21,Yes,Unknown,Unknown,Yes
+PedNYC20,102,Yes,Driver,Driver,Yes
+PedNYC20,104,Yes,Pedestrian,Both,Yes
+PedNYC20,105,Yes,Pedestrian,Pedestrian,Yes
+PedNYC20,106,Yes,Pedestrian,Pedestrian,Yes
+PedNYC21,3,Yes,Pedestrian,Pedestrian,Yes
+PedNYC21,7,No,Pedestrian,Pedestrian,Yes
+PedNYC21,12,Yes,Neither,Neither,Yes
+PedNYC21,21,Yes,Pedestrian,Pedestrian,Yes
+PedNYC21,102,Yes,Driver,Driver,Yes
+PedNYC21,103,Yes,Pedestrian,Pedestrian,Yes
+PedNYC21,104,Yes,Pedestrian,Pedestrian,Yes
+PedNYC21,106,No,Pedestrian,Pedestrian,Yes
+PedNYC22,3,Yes,Pedestrian,Pedestrian,Yes
+PedNYC22,7,No,Pedestrian,Pedestrian,Yes
+PedNYC22,12,Yes,Neither,Neither,Yes
+PedNYC22,15,Yes,Unknown,Unknown,Yes
+PedNYC22,16,Yes,Neither,Neither,Yes
+PedNYC22,21,Yes,Driver,Driver,Yes
+PedNYC22,101,Yes,Pedestrian,Pedestrian,Yes
+PedNYC22,102,Yes,Pedestrian,Pedestrian,No
+PedNYC22,103,Yes,Pedestrian,Pedestrian,Yes
+PedNYC22,104,Yes,Pedestrian,Pedestrian,Yes
+PedNYC22,105,Yes,Pedestrian,Both,Yes
+PedNYC22,106,Yes,Pedestrian,Pedestrian,Yes
+PedNYC23,3,Yes,Driver,Driver,Yes
+PedNYC23,7,No,Driver,Driver,Yes
+PedNYC23,12,Yes,Neither,Neither,Yes
+PedNYC23,15,Yes,Driver,Driver,Yes
+PedNYC23,16,Yes,Neither,Neither,Yes
+PedNYC23,21,Yes,Pedestrian,Pedestrian,Yes
+PedNYC23,101,Yes,Pedestrian,Pedestrian,Yes
+PedNYC23,102,Yes,Pedestrian,Pedestrian,Yes
+PedNYC23,103,Yes,Pedestrian,Pedestrian,Yes
+PedNYC23,104,Yes,Pedestrian,Both,Yes
+PedNYC23,105,Unknown,Unknown,Unknown,Unknown
+PedNYC23,106,Yes,Driver,Driver,Yes
+PedNYC24,3,Yes,Pedestrian,Pedestrian,Yes
+PedNYC24,7,Unknown,Unknown,Unknown,Unknown
+PedNYC24,12,Yes,Neither,Neither,Yes
+PedNYC24,15,Yes,Pedestrian,Pedestrian,Yes
+PedNYC24,16,Yes,Neither,Neither,Yes
+PedNYC24,21,Yes,Driver,Driver,Yes
+PedNYC24,101,Yes,Driver,Driver,Yes
+PedNYC24,102,Yes,Driver,Driver,Yes
+PedNYC24,103,Yes,Driver,Driver,Yes
+PedNYC24,104,Yes,Pedestrian,Pedestrian,Yes
+PedNYC24,105,Yes,Pedestrian,Both,Yes
+PedNYC24,106,Yes,Pedestrian,Pedestrian,Yes
+PedNYC25,3,Yes,Pedestrian,Pedestrian,Yes
+PedNYC25,7,No,Pedestrian,Pedestrian,Yes
+PedNYC25,15,Yes,Pedestrian,Pedestrian,Yes
+PedNYC25,16,Yes,Neither,Neither,Yes
+PedNYC25,21,Yes,Pedestrian,Pedestrian,Yes
+PedNYC25,101,Yes,Unknown,Unknown,Unknown
+PedNYC25,102,Yes,Driver,Driver,Yes
+PedNYC25,103,Yes,Driver,Driver,Yes
+PedNYC25,104,Yes,Pedestrian,Pedestrian,Yes
+PedNYC25,105,Yes,Pedestrian,Pedestrian,Yes
+PedNYC25,106,No,Pedestrian,Pedestrian,Yes
+PedNYC26,3,No,Driver,Driver,Yes
+PedNYC26,7,No,Pedestrian,Pedestrian,Yes
+PedNYC26,12,Yes,Neither,Neither,Yes
+PedNYC26,15,Yes,Pedestrian,Pedestrian,Yes
+PedNYC26,16,Yes,Neither,Neither,Yes
+PedNYC26,21,Yes,Driver,Driver,Yes
+PedNYC26,101,Yes,Driver,Driver,Yes
+PedNYC26,102,Yes,Pedestrian,Pedestrian,Yes
+PedNYC26,103,Yes,Driver,Driver,Yes
+PedNYC26,104,Yes,Pedestrian,Both,Yes
+PedNYC26,105,Yes,Pedestrian,Both,Yes
+PedNYC26,106,Yes,Pedestrian,Pedestrian,Yes
+PedNYC27,21,Yes,Pedestrian,Pedestrian,Yes
+PedNYC27,104,Yes,Pedestrian,Pedestrian,Yes
+PedNYC27,106,Yes,Pedestrian,Pedestrian,Yes
+PedNYC28,3,Yes,Pedestrian,Pedestrian,Yes
+PedNYC28,7,No,Pedestrian,Pedestrian,Yes
+PedNYC28,12,Yes,Neither,Neither,Yes
+PedNYC28,15,Yes,Pedestrian,Pedestrian,Yes
+PedNYC28,16,Yes,Neither,Neither,Yes
+PedNYC28,21,Yes,Pedestrian,Pedestrian,Yes
+PedNYC28,101,Yes,Pedestrian,Pedestrian,Yes
+PedNYC28,102,Yes,Pedestrian,Pedestrian,Yes
+PedNYC28,103,Unknown,Unknown,Unknown,Unknown
+PedNYC28,104,Yes,Pedestrian,Both,Yes
+PedNYC28,105,Yes,Pedestrian,Pedestrian,Yes
+PedNYC28,106,Yes,Pedestrian,Pedestrian,Yes
+PedNYC29,3,Yes,Pedestrian,Pedestrian,Yes
+PedNYC29,7,No,Pedestrian,Pedestrian,Yes
+PedNYC29,12,Yes,Neither,Neither,Yes
+PedNYC29,15,Yes,Pedestrian,Both,Yes
+PedNYC29,16,Yes,Neither,Neither,Yes
+PedNYC29,21,Yes,Pedestrian,Pedestrian,Yes
+PedNYC29,101,Yes,Pedestrian,Both,Yes
+PedNYC29,102,Yes,Pedestrian,Both,Yes
+PedNYC29,103,Yes,Pedestrian,Both,Yes
+PedNYC29,104,Yes,Pedestrian,Pedestrian,Yes
+PedNYC29,105,Yes,Pedestrian,Both,Yes
+PedNYC29,106,Yes,Pedestrian,Both,Yes
+PedNYC30,3,Yes,Pedestrian,Pedestrian,Yes
+PedNYC30,12,Yes,Neither,Neither,Yes
+PedNYC30,15,Yes,Pedestrian,Pedestrian,Yes
+PedNYC30,16,Yes,Neither,Neither,Yes
+PedNYC30,21,Yes,Pedestrian,Pedestrian,Yes
+PedNYC30,101,Yes,Pedestrian,Pedestrian,Yes
+PedNYC30,102,Yes,Pedestrian,Pedestrian,Yes
+PedNYC30,103,Yes,Pedestrian,Pedestrian,Yes
+PedNYC30,105,Yes,Pedestrian,Pedestrian,Yes
+PedNYC30,106,Yes,Pedestrian,Pedestrian,Yes
+PedNYC31,3,Yes,Pedestrian,Pedestrian,Yes
+PedNYC31,12,Yes,Neither,Neither,Yes
+PedNYC31,15,Yes,Driver,Driver,Yes
+PedNYC31,101,Yes,Pedestrian,Pedestrian,Yes
+PedNYC32,3,No,Pedestrian,Pedestrian,Yes
+PedNYC32,7,No,Pedestrian,Pedestrian,Yes
+PedNYC32,15,No,Pedestrian,Pedestrian,Yes
+PedNYC32,16,No,Neither,Neither,Yes
+PedNYC32,21,No,Unknown,Unknown,Yes
+PedNYC32,101,Unknown,Unknown,Unknown,Unknown
+PedNYC32,102,No,Pedestrian,Pedestrian,Yes
+PedNYC32,103,No,Pedestrian,Both,Yes
+PedNYC32,104,No,Pedestrian,Pedestrian,Yes
+PedNYC32,106,No,Pedestrian,Both,Yes

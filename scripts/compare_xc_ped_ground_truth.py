@@ -46,10 +46,10 @@ def compare(prediction_path: Path, ground_truth_path: Path, output_dir: Path) ->
     comparison.insert(3, "overall_result",
                       mismatch_any.map({True: "<<< DISCREPANCY >>>", False: "MATCH"}))
     output_dir.mkdir(parents=True, exist_ok=True)
-    comparison.to_csv(output_dir / "xc_ped_prediction_ground_truth_comparison.csv",
+    comparison.to_csv(output_dir / "xc_ped_four_fields_comparison.csv",
                       index=False, encoding="utf-8-sig")
     comparison[comparison.overall_result == "<<< DISCREPANCY >>>"].to_csv(
-        output_dir / "xc_ped_discrepancies_only.csv", index=False, encoding="utf-8-sig")
+        output_dir / "xc_ped_four_fields_discrepancies_only.csv", index=False, encoding="utf-8-sig")
     headers = "".join(f"<th>{html.escape(str(column))}</th>" for column in comparison.columns)
     body = []
     for row in comparison.itertuples(index=False, name=None):
@@ -64,15 +64,15 @@ def compare(prediction_path: Path, ground_truth_path: Path, output_dir: Path) ->
         "</style><table><thead><tr>" + headers + "</tr></thead><tbody>" +
         "".join(body) + "</tbody></table>"
     )
-    (output_dir / "xc_ped_prediction_ground_truth_comparison_highlighted.html").write_text(
+    (output_dir / "xc_ped_four_fields_highlighted.html").write_text(
         highlighted, encoding="utf-8")
-    pd.DataFrame(field_stats).to_csv(output_dir / "comparison_summary.csv", index=False)
+    pd.DataFrame(field_stats).to_csv(output_dir / "xc_ped_four_fields_summary.csv", index=False)
     summary = {"prediction_rows": len(pred), "ground_truth_rows": len(truth),
                "joined_rows": int((merged._merge == "both").sum()),
                "prediction_only": int((merged._merge == "left_only").sum()),
                "ground_truth_only": int((merged._merge == "right_only").sum()),
                "joined_rows_with_discrepancy": int((mismatch_any & merged._merge.eq("both")).sum())}
-    (output_dir / "comparison_summary.json").write_text(json.dumps(summary, indent=2), encoding="utf-8")
+    (output_dir / "xc_ped_four_fields_summary.json").write_text(json.dumps(summary, indent=2), encoding="utf-8")
     return summary
 
 

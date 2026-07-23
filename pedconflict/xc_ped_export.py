@@ -13,7 +13,6 @@ import pandas as pd
 
 PREDICTION_COLUMNS = [
     "StudyFolder", "ScenarioName", "Did the driver signal",
-    "How does vehicle speed change?", "How does pedestrian speed change?",
     "Who has the right of way?（Who reached the intersection first?）",
     "Who went first？", "Did the pedestrian use hand gestures?",
 ]
@@ -144,8 +143,6 @@ def export_predictions(root: Path) -> dict:
         prediction = {
             "StudyFolder": row.study, "ScenarioName": str(row.scenario),
             "Did the driver signal": signal,
-            "How does vehicle speed change?": vehicle,
-            "How does pedestrian speed change?": pedestrian,
             "Who has the right of way?（Who reached the intersection first?）": arrival,
             "Who went first？": passage,
             "Did the pedestrian use hand gestures?": gesture,
@@ -179,8 +176,6 @@ def export_predictions(root: Path) -> dict:
         unknown = {
             "StudyFolder": study, "ScenarioName": scenario,
             "Did the driver signal": "Unknown",
-            "How does vehicle speed change?": "Unknown",
-            "How does pedestrian speed change?": "Unknown",
             "Who has the right of way?（Who reached the intersection first?）": "Unknown",
             "Who went first？": "Unknown",
             "Did the pedestrian use hand gestures?": "Unknown",

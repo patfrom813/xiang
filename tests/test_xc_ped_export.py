@@ -19,5 +19,5 @@ def test_speed_slow_then_fast():
 
 
 def test_required_schema_excludes_driver_gesture():
-    assert len(PREDICTION_COLUMNS) == 8
+    assert len(PREDICTION_COLUMNS) == 6
     assert all("driver use hand gestures" not in value.casefold() for value in PREDICTION_COLUMNS)
